@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,17 +41,17 @@ http://www.templatemo.com/tm-496-pipeline
                             <li class="tm-nav-item"><a href="#welcome" class="tm-nav-item-link tm-button">
                                 <i class="fa fa-smile-o tm-nav-fa"></i>Bem-Vindo</a>
                             </li>
-                            <li class="tm-nav-item"><a href="#gallery" class="tm-nav-item-link tm-button">
+                            <li class="tm-nav-item"><a href="#Campanhas" class="tm-nav-item-link tm-button">
                                 <i class="fa fa-image tm-nav-fa"></i>Campanhas</a>
                             </li>
-                            <li class="tm-nav-item"><a href="#services" class="tm-nav-item-link tm-button">
-                                <i class="fa fa-tasks tm-nav-fa"></i>Quem Somos</a>
+                            <li class="tm-nav-item"><a href="#Cadastrese" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-sitemap tm-nav-fa"></i>Cadastre-se</a>
                             </li>
-                            <li class="tm-nav-item"><a href="#about" class="tm-nav-item-link tm-button">
-                                <i class="fa fa-sitemap tm-nav-fa"></i>Entre com sua idéia</a>
+							<li class="tm-nav-item"><a href="#TenhoCadastro" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-sitemap tm-nav-fa"></i>Tenho Cadastro</a>
                             </li>
                             <li class="tm-nav-item"><a href="#contact" class="tm-nav-item-link tm-button">
-                                <i class="fa fa-envelope-o tm-nav-fa"></i>Contact Us</a>
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>Contate-nos</a>
                             </li>
                         </ul>
                     </nav>
@@ -60,113 +60,68 @@ http://www.templatemo.com/tm-496-pipeline
                 <div class="tm-main-content">
                     
                     <div class="tm-content-box tm-content-box-home">                        
-                        <img src="img/1200x800-01.jpg" alt="Image 1" class="img-fluid tm-welcome-img">                        
+                        <img src="img/logo.jpg" alt="Image 1" class="img-fluid tm-welcome-img">                        
                         <div class="tm-welcome-boxes-container">
                             <div class="tm-welcome-box">
                                 <div class="tm-welcome-text">
-                                    <h2 class="tm-section-title">Aliquam ante sapien</h2>
-                                    <p>Duis vel elit eu eros dapibus vestibulum vel vel nibh. Nulla id ornare eros, at efficitur risus.</p>    
+                                    <h2 class="tm-section-title">Nosso Projeto</h2>
+                                    <p>Este projeto detem o objetivo de juntar campanhas de doações pelo mundo...</p>    
                                 </div>                            
-                                <a href="#" class="tm-welcome-link tm-button">Learn More</a>
+                                <a href="http://localhost:8080/AbraceSuaCausa/paginadedoacao.php" class="tm-welcome-link tm-button">Saiba Mais</a>
                             </div>
                             <div class="tm-welcome-box">
                                 <div class="tm-welcome-text">
-                                    <h2 class="tm-section-title">Lorem ipsum dolor</h2>
-                                    <p>Vivamus eleifend ac turpis sit amet maximus. Nulla in faucibus nisl, ut ultrices magna.</p>    
+                                    <h2 class="tm-section-title">Novidades</h2>
+                                    <p>Novas campanhas noticias sobre entidades beneficientes, lugares que precisam de ajuda,etc. Acesse nossa pagina de novidades</p>    
                                 </div>                            
-                                <a href="#" class="tm-welcome-link tm-button">Read Details</a>
+                                <a href="#" class="tm-welcome-link tm-button">Newsletter</a>
                             </div>
                         </div>
                     </div>
                         
-                    <div id="gallery" class="tm-content-box">                        
-                        <div class="grid tm-gallery">
-                            <figure class="effect-bubba">
-                                <img src="img/img-11-08.jpg" alt="Image 8" class="img-fluid">
-                                <figcaption>
-                                    <h2>Light <span>Bridge</span></h2>
-                                    <p>Fusce faucibus metus in augue</p>
-                                    <a href="img/img-11-08.jpg">View more</a>
-                                </figcaption>
-                            </figure>
-
-                            <figure class="effect-bubba">
-                                <img src="img/img-11-07.jpg" alt="Image 7" class="img-fluid">
-                                <figcaption>
-                                    <h2>Glass <span>Tower</span></h2>
-                                    <p>Sed ut ipsum eu purus ullamcorper</p>
-                                    <a href="img/img-11-07.jpg">View more</a>
-                                </figcaption>
-                            </figure>
-
-                            <figure class="effect-bubba">
-                                <img src="img/img-11-05.jpg" alt="Image 5" class="img-fluid">
-                                <figcaption>
-                                    <h2>Jump <span>Higher</span></h2>
-                                    <p>Morbi fermentum eget libero sed</p>
-                                    <a href="img/img-11-05.jpg">View more</a>
-                                </figcaption>
-                            </figure>
-
-                            <figure class="effect-bubba">
-                                <img src="img/img-11-03.jpg" alt="Image 3" class="img-fluid">
-                                <figcaption>
-                                    <h2>Forest <span>Park</span></h2>
-                                    <p>Aenean rutrum enim a tellus suscipit</p>
-                                    <a href="img/img-11-03.jpg">View more</a>
-                                </figcaption>
-                            </figure>
-
-                            <figure class="effect-bubba">
-                                <img src="img/img-11-02.jpg" alt="Image 2" class="img-fluid">
-                                <figcaption>
-                                    <h2>Ice <span>Mountain</span></h2>
-                                    <p>Curabitur a ipsum eget eros sodales</p>
-                                    <a href="img/img-11-02.jpg">View more</a>
-                                </figcaption>
-                            </figure>
-
-                            <figure class="effect-bubba">
-                                <img src="img/img-11-04.jpg" alt="Image 4" class="img-fluid">
-                                <figcaption>
-                                    <h2>Green <span>Field</span></h2>
-                                    <p>Duis eget tortor et mauris tempus</p>
-                                    <a href="img/img-11-04.jpg">View more</a>
-                                </figcaption>
-                            </figure>                                
-                        </div>
-                    </div>
-
-                    <div id="services" class="tm-content-box tm-gray-bg tm-services">
-
-                        <div class="tm-services-img-container">
-                            <img src="img/450x900-01.jpg" alt="Green Field" class="img-fluid tm-services-img">    
+                    <div id="Campanhas" class="tm-content-box">                        
+                       <div class="tm-services-img-container">
+                            <img src="img/ONGS.jpg" alt="Green Field" class="img-fluid tm-services-img">    
                         </div> 
                             
                         <div class="tm-box-pad tm-services-description-container">
-                            <h2 class="tm-section-title">Vivamus eget convallis tellus</h2>
-                            <p class="tm-section-description">Pipeline Bootstrap 4.0 Template is provided by <a href="http://templatemo.com" target="_parent">templatemo</a> website. You may use this HTML CSS template and also share it to friends. Thank you for visiting our site.</p>
-                        <p class="tm-section-description">Duis vel elit eu eros dapibus vestibulum vel vel nibh. Morbi efficitur erat nulla, id tempor mi accumsan sed. Suspendisse sollicitudin condimentum interdum. <span class="tm-blue-text">BG #F4F4F4 Button BG #936</span> <span class="tm-red-text">Button Hover BG #C33</span></p> 
-                            <p class="tm-section-description">Nulla id ornare eros, at efficitur risus. Fusce sodales lorem magna, id tempor justo mattis eget. Aenean accumsan semper commodo. Aliquam ante sapien, tincidunt sed vaius et, luctus condimentum sapien.</p>   
-                        </div>                                              
-                        
+                            <h2 class="tm-section-title">Campanhas</h2>
+                            <p class="tm-section-description">Nesta parte você saberá quais campanhas existem conosco.</p>
+                        <p class="tm-section-description">Podendo assim fazer parte dessa grande empreitada que é mudar a vida de milhares de pessoas.</span></p> 
+                            <p class="tm-section-description">Ao se filiar você também está estabelecendo uma relação com as instituições que possuem cadastro em nosso site <i>Abrace Sua Causa</i>, você poderá visualizar diversas campanhas que por sua vez estarão de braços abertos para tirar qualquer dúvida que venha a ter.</p>
+							<p>Assim sabendo que sua doação terá uma tratativa devida para que não seja desperdiçada;</p>
+							<li class="tm-nav-item"><a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>Campanhas</a>
+                            </li>
+                        </div>       
+						
                     </div>
-
+	
                     <!-- slider -->
-                    <div id="about" class="tm-content-box">
+					<div id="Cadastrese" class="tm-content-box">
                         <div class="tm-box-pad tm-bordered-box">
-                            <h2 class="tm-section-title">Mauris sollicitudin a nibh ut sollicitudin</h2>
-                            <p>Pellentesque quam libero, hendrerit pretium feugiat sed, rhoncus ac nunc. Etiam eget dui vel ex eleifend mattis eget vitae risus. Nullam eu libero sit amet quam finibus condimentum. Aenean vulputate dictum suscipit. Morbi efficitur erat nulla, id tempor mi accumsan sed.</p>
-                            <a href="#" class="tm-button tm-button-normal">Read More</a>
+                            <h2 class="tm-section-title">Você ainda não possui um cadastro?</h2>
+                            <p>Cadastre-se para ajudar as campanhas a concluir seus objetivos.</p>
+							<p>Se cadastrando você pode fazer a diferença, tornando assim o mundo um lugar melhor. </p>
+                            <a href="#" class="tm-button tm-button-normal">Clique aqui para se cadastrar</a>
+                        </div>
+					</div>
+                    <div id="TenhoCadastro" class="tm-content-box">
+                        <div class="tm-box-pad tm-bordered-box">
+                            <h2 class="tm-section-title">Já sou cadastrado</h2>
+                            <p>Entre com seu usuario e senha para assim continuar a ajudar as campanhas a concluir seus objetivos.</p>
+							<p>Continue abraçando causas, muitos precisam de um <b>Abraço seu</b>.
+							<p> <p>
+                            <a href="http://localhost/ProjetoDevOps/login.php" class="tm-button tm-button-normal">Efetuar Login</a>
                         </div>
                         <div class="tm-flex">
                             <div class="tm-purple-bg tm-box-pad tm-bordered-box tm-no-border-top">
-                                <h2 class="tm-section-title">Cras volutpat fermentum</h2>
-                                <p>Aliquam ante sapien, tincidunt sed varius et, luctus condimentum sapien. Duis vel elit eu eros dapibus vestibulum vel vel nibh. Nulla id ornare eros.</p>
+                                <h2 class="tm-section-title">Campanhas para Animais</h2>
+                                <p>As campanhas não são apenas para pessoas, os bichinhos também participam dessas.</p>
                             </div>
                             <div class="tm-gray-bg tm-box-pad tm-bordered-box tm-no-border-top">
-                                <h2 class="tm-section-title">Aenean vulputate dictum</h2>
-                                <p>Suspendisse ultricies egestas nulla, non vestibulum quam suscipit et. Sed sit amet enim ultricies, auctor nisl eu, porta augue. Cras et tristique augue.</p>
+                                <h2 class="tm-section-title">Apenas instuições?</h2>
+                                <p>Se você tem uma causa e não é uma instuição, envie um e-mail para ajuda@abracesuacausa.com.br que entraremos em contato para conhecer sua e compartilha-la.</p>
                             </div>    
                         </div>                        
                     </div>
@@ -176,41 +131,32 @@ http://www.templatemo.com/tm-496-pipeline
                         <div class="tm-flex">
                             <div class="tm-contact-left-half tm-gray-bg">
                                 <div class="tm-contact-inner-pad">
-                                    <h2 class="tm-section-title">Contact Us</h2>
+                                    <h2 class="tm-section-title">Contato</h2>
                                     <form action="#contact" method="post" class="contact-form">
 
                                         <div class="form-group">
-                                            <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                                            <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Nome"  required/>
                                         </div>
                                         <div class="form-group">
                                             <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
                                         </div>
                                         <div class="form-group">
-                                            <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
+                                            <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Mensagem para nós" required></textarea>
                                         </div>
                                         
-                                        <button type="submit" class="btn btn-primary pull-xs-right tm-button tm-button-normal">Submit</button>
+                                        <button type="submit" class="btn btn-primary pull-xs-right tm-button tm-button-normal">Enviar</button>
 
                                     </form>
                                 </div>                                
                             </div>
 
-                            <div class="tm-contact-right-half tm-purple-bg">
-                                <div class="tm-address-box">
-                                    <h2 class="tm-section-title">Our Location</h2>
-                                    <address>110 tellus ut fringilla ornare,<br>
-                                             velit arcu rutrum metus<br>
-                                             id elementum 10990
-                                    </address>    
-                                </div>                                
-                                <div id="google-map"></div>
-                            </div>
+                            
                         </div>
                         
                     </section>  
 
                     <footer class="tm-footer">
-                        <p class="text-xs-center">Copyright &copy; 2016 Your Company | Design: <a href="http://templatemo.com" target="_parent">Templatemo</a></p>
+                        <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</a></p>
                     </footer>
 
                 </div>
@@ -226,12 +172,10 @@ http://www.templatemo.com/tm-496-pipeline
         
         <!-- Templatemo scripts -->
         <script>  
-
         /* Google map
         ------------------------------------------------*/
         var map = '';
         var center;
-
         function initialize() {
             var mapOptions = {
                 zoom: 16,
@@ -240,7 +184,6 @@ http://www.templatemo.com/tm-496-pipeline
             };
         
             map = new google.maps.Map(document.getElementById('google-map'),  mapOptions);
-
             google.maps.event.addDomListener(map, 'idle', function() {
               calculateCenter();
             });
@@ -249,18 +192,15 @@ http://www.templatemo.com/tm-496-pipeline
               map.setCenter(center);
             });
         }
-
         function calculateCenter() {
             center = map.getCenter();
         }
-
         function loadGoogleMap(){
             var script = document.createElement('script');
             script.type = 'text/javascript';
             script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
             document.body.appendChild(script);
         } 
-
         function setNavbar() {
             if ($(document).scrollTop() > 160) {
                 $('.tm-sidebar').addClass('sticky');
@@ -276,14 +216,12 @@ http://www.templatemo.com/tm-496-pipeline
                 'currentClass' : "active",
                 offset : 20
             });
-
             // Detect window scroll and change navbar
             setNavbar();
             
             $(window).scroll(function() {
               setNavbar();
             });
-
             // Magnific pop up
             $('.tm-gallery').magnificPopup({
               delegate: 'a', // child items selector, by clicking on it popup will open
@@ -291,7 +229,6 @@ http://www.templatemo.com/tm-496-pipeline
               gallery: {enabled:true}
               // other options
             });
-
             // Google Map
             loadGoogleMap();            
         });
