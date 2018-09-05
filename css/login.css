@@ -17,11 +17,19 @@ src: url("../font-awesome-4.6.3/fonts/Raleway-Italic.ttf");
 
 
 
-section#welcome2 {
+
+body{
+height: 100%;	
+	
+}
+
+
+
+section#welcome {
 position: relative;	
-left: 48px;
-width: 1300px;
+width: 94%;
 height: 150px;
+margin: auto;
 background-image: url("../img/capa.jpg");
 border: 2px solid;
 color: #ffffff;
@@ -29,11 +37,11 @@ box-shadow: 10px 10px 10px #424242;
 
 }	
 
-section#welcome2 h1{
+section#welcome h1{
 text-align: center;
 color: #ffffff;
-margin-top: 26px;
-font-size: 80px;
+margin-top: auto;
+font-size: 500%;
 font-family: 'FonteLogo';
 font-w;
 opacity: 1;
@@ -47,11 +55,11 @@ opacity: 1;
 #p1 {
 position: relative;
 text-align: center;
-background-color: #424242; 
+background-color: #000000; 
 color: #ffffff;	
 width: 45px;
 border-radius: 4px 4px 4px 4px;
-left: 50px;
+left: 3%;
 font-family: 'Fontemenu';
 }	
 
@@ -68,21 +76,25 @@ position: relative;
 font-family: 'FonteLogo2';
 color: #2E2E2E;
 width: 600px;
-background-color: #ffffff;
-left: 400px;
-margin-top:150px;
+margin: auto;
+margin-top:  200px;
+
 }	
 
 div#login h2{
+position: relative;
 text-align: center;
 font-size: 40px;
+right: 5%;
 }
 
 
 form#login label {
 position: relative;
-padding: 20px;
+margin: 2%;
 top: 5px;
+height: 1%;
+
 }	
 
 
@@ -112,43 +124,47 @@ top: 4px;
 	
 
 
-
-
-
-
-
-
-
-form#legenda {
-position: relative;
-text-align: center;	
-font-size: 10px;
-width: auto;
-margin-top: 10px;
-
-}	
-
-
-
-
-form#legenda label{
-position: relative;	
+	
+form#legenda{
 font-weight: bold;
+width: 20%;
+margin: auto;
 
-padding: 0px 90px 0px 90px;
 }	
+
+
 
 form#legenda a{
-position:relative;
+position: relative;
 text-decoration: none;
-font-size: 13px;
+font-size: 75%;
+color: inherit;
+position: relative;
+background-color: #dcdcdc; 
+border-radius: 4px 4px 4px 4px;
+
 }
+
+
+
+a#l1 {
+position: relative;	
+left: 2%;
+}
+
+a#l2 {
+position: relative;
+left: 44%;
+}
+
+
 
 
 
 
 footer {
 position: relative;
+margin-top: 370px;
 clear: both;
 border-top: 1px solid;	
 text-align: center;
