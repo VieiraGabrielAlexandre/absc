@@ -7,4 +7,4 @@ INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `situacoe_id`, `niveis_a
 
 INSERT INTO `niveis_acessos` (`id`, `nome`, `created`, `modified`) VALUES (1,'Administrador','2018-08-29 00:00:01','2018-08-29 21:58:01');
 INSERT INTO `niveis_acessos` (`id`, `nome`, `created`, `modified`) VALUES (2,'Colaborador','2018-08-29 00:00:01','2018-08-29 21:58:01');
-INSERT INTO `niveis_acessos` (`id`, `nome`, `created`, `modified`) VALUES (2,'Cliente','2018-08-29 00:00:01','2018-08-29 21:58:01');
+INSERT INTO `niveis_acessos` (`id`, `nome`, `created`, `modified`) VALUES (3,'Cliente','2018-08-29 00:00:01','2018-08-29 21:58:01');
