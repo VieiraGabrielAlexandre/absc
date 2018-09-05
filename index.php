@@ -16,6 +16,7 @@ http://www.templatemo.com/tm-496-pipeline
     <link rel="stylesheet" href="css/bootstrap.min.css">                                 <!-- Bootstrap style, http://v4-alpha.getbootstrap.com/ -->
     <link rel="stylesheet" href="css/magnific-popup.css">                                <!-- Magnific pop up style, http://dimsemenov.com/plugins/magnific-popup/ -->
     <link rel="stylesheet" href="css/templatemo-style.css">                              <!-- Templatemo style -->
+	<link rel="stylesheet" href="css/login.css"> 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,10 +28,10 @@ http://www.templatemo.com/tm-496-pipeline
 
       <body>
         <div class="container-fluid">
-
-            <section id="welcome" class="tm-content-box tm-banner margin-b-10">
+			
+            <section id="welcome2" class="tm-content-box tm-banner margin-b-10">
                 <div class="tm-banner-inner">
-                    <h1 class="tm-banner-title" style="color:ff4d00;">Abrace Sua Causa s2</h1>                        
+                    <h1 class="tm-banner-title">Abrace Sua Causa s2</h1>                        
                 </div>                    
             </section>
 
@@ -103,7 +104,7 @@ http://www.templatemo.com/tm-496-pipeline
                             <h2 class="tm-section-title">Você ainda não possui um cadastro?</h2>
                             <p>Cadastre-se para ajudar as campanhas a concluir seus objetivos.</p>
 							<p>Se cadastrando você pode fazer a diferença, tornando assim o mundo um lugar melhor. </p>
-                            <a href="#" class="tm-button tm-button-normal">Clique aqui para se cadastrar</a>
+                            <a href="http://localhost/ProjetoDevOps/efetuarcadastro.php" class="tm-button tm-button-normal">Clique aqui para se cadastrar</a>
                         </div>
 					</div>
                     <div id="TenhoCadastro" class="tm-content-box">

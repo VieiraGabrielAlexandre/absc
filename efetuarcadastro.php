@@ -18,7 +18,6 @@ http://www.templatemo.com/tm-496-pipeline
     <link rel="stylesheet" href="css/bootstrap.min.css">                                 <!-- Bootstrap style, http://v4-alpha.getbootstrap.com/ -->
     <link rel="stylesheet" href="css/magnific-popup.css">                                <!-- Magnific pop up style, http://dimsemenov.com/plugins/magnific-popup/ -->
     <link rel="stylesheet" href="css/templatemo-style.css">                              <!-- Templatemo style -->
-	<link rel="stylesheet" type="text/css" href="css/login.css"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,21 +34,21 @@ http://www.templatemo.com/tm-496-pipeline
                     <h1 class="tm-banner-title" style="color:ff4d00;">Abrace Sua Causa s2</h1>                        
                 </div>                    
             </section>
-			<p id="p1"><a href="">voltar</a><p>
-				<form id="login"method="POST" action="valida.php">
-				<div id=login>
-					<h2>Login</h2>
+				<form method="POST" action="inserircadastro.php">
+					<h2>Efetuar Cadastro</h2>					
+					<label>Nome</label>
+					<input type="text" name="nome" placeholder="Nome" required autofocus>
 					<label>Email</label>
-					<input type="email" name="email" placeholder="Email" required autofocus>
+					<input type="email" name="email" placeholder="Email">
 					<label>Senha</label>
-					<input type="password" name="senha" placeholder="Senha" required>
-					<button type="submit">Acessar</button>
-					</div>
+					<input type="password" name="senha" placeholder="Senha">
+					<input type="hidden" name="classcliente" value="3">
+					<input type="hidden" name="situacao" value="1"><br>
+					<label>Data do cadastro</label>
+					<input type="text" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
+					
+					<button type="submit">Efetuar Cadastro</button>
 				</form>
-				<form id="legenda">
-				<label> <a href="">Cadastrar-se</a></label>
-				<label><a href="">esqueci minha senha</a></label>
-					</form>
 			<p>
             <?php if(isset($_SESSION['loginErro'])){
                 echo $_SESSION['loginErro'];

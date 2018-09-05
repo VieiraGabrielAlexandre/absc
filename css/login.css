@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@font-face {
+font-family: 'FonteLogo';
+src: url("../font-awesome-4.6.3/fonts/Sofia-Regular.otf");
+}
+
+@font-face{
+font-family: 'FonteLogo2';
+src: url("../font-awesome-4.6.3/fonts/BEBAS___.ttf");
+}
+
+
+@font-face{
+font-family: 'Fontemenu';
+src: url("../font-awesome-4.6.3/fonts/Raleway-Italic.ttf");
+}
+
+
+
+section#welcome2 {
+position: relative;	
+left: 48px;
+width: 1300px;
+height: 150px;
+background-image: url("../img/capa.jpg");
+border: 2px solid;
+color: #ffffff;
+box-shadow: 10px 10px 10px #424242;
+
+}	
+
+section#welcome2 h1{
+text-align: center;
+color: #ffffff;
+margin-top: 26px;
+font-size: 80px;
+font-family: 'FonteLogo';
+font-w;
+opacity: 1;
+	
+}
+
+
+
+
+
+#p1 {
+position: relative;
+text-align: center;
+background-color: #424242; 
+color: #ffffff;	
+width: 45px;
+border-radius: 4px 4px 4px 4px;
+left: 50px;
+font-family: 'Fontemenu';
+}	
+
+#p1 a{
+text-decoration: none;
+list-style: none;
+color: inherit;
+}	
+
+
+
+div#login {
+position: relative;	
+font-family: 'FonteLogo2';
+color: #2E2E2E;
+width: 600px;
+background-color: #ffffff;
+left: 400px;
+margin-top:150px;
+}	
+
+div#login h2{
+text-align: center;
+font-size: 40px;
+}
+
+
+form#login label {
+position: relative;
+padding: 20px;
+top: 5px;
+}	
+
+
+form#login input {
+position: relative;
+border: 2px solid;
+border-bottom: 2px solid;
+border-bottom-color: #000000;
+color: #696969;
+background-color: #D3D3D3;
+}	
+
+
+
+div#login button {
+position: relative;
+background-color: #2E2E2E;
+border: 1px solid;
+border-radius: 4px 4px 4px 4px;
+font-family: 'FonteLogo2';
+color: #ffffff;
+font-size: 15px;
+top: 4px;
+	
+}	
+
+	
+
+
+
+
+
+
+
+
+
+form#legenda {
+position: relative;
+text-align: center;	
+font-size: 10px;
+width: auto;
+margin-top: 10px;
+
+}	
+
+
+
+
+form#legenda label{
+position: relative;	
+font-weight: bold;
+
+padding: 0px 90px 0px 90px;
+}	
+
+form#legenda a{
+position:relative;
+text-decoration: none;
+font-size: 13px;
+}
+
+
+
+
+footer {
+position: relative;
+clear: both;
+border-top: 1px solid;	
+text-align: center;
+font-weight: bold;
+clear: both;
+
+
+}	
+
+
+
+
+
