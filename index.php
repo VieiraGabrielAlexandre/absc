@@ -68,7 +68,7 @@ http://www.templatemo.com/tm-496-pipeline
                                     <h2 class="tm-section-title">Nosso Projeto</h2>
                                     <p>Este projeto detem o objetivo de juntar campanhas de doações pelo mundo...</p>    
                                 </div>                            
-                                <a href="http://localhost/ProjetoDevOpsVSTS/abracesuacausa/paginadedoacao.php" class="tm-welcome-link tm-button">Saiba Mais</a>
+                                <a href="paginadedoacao.php" class="tm-welcome-link tm-button">Saiba Mais</a>
                             </div>
                             <div class="tm-welcome-box">
                                 <div class="tm-welcome-text">
@@ -104,7 +104,7 @@ http://www.templatemo.com/tm-496-pipeline
                             <h2 class="tm-section-title">Você ainda não possui um cadastro?</h2>
                             <p>Cadastre-se para ajudar as campanhas a concluir seus objetivos.</p>
 							<p>Se cadastrando você pode fazer a diferença, tornando assim o mundo um lugar melhor. </p>
-                            <a href="http://localhost/ProjetoDevOpsVSTS/abracesuacausa/efetuarcadastro.php" class="tm-button tm-button-normal">Clique aqui para se cadastrar</a>
+                            <a href="efetuarcadastro.php" class="tm-button tm-button-normal">Clique aqui para se cadastrar</a>
                         </div>
 					</div>
                     <div id="TenhoCadastro" class="tm-content-box">
@@ -113,7 +113,7 @@ http://www.templatemo.com/tm-496-pipeline
                             <p>Entre com seu usuario e senha para assim continuar a ajudar as campanhas a concluir seus objetivos.</p>
 							<p>Continue abraçando causas, muitos precisam de um <b>Abraço seu</b>.
 							<p> <p>
-                            <a href="gitlogin.php" class="tm-button tm-button-normal">Efetuar Login</a>
+                            <a href="login.php" class="tm-button tm-button-normal">Efetuar Login</a>
                         </div>
                         <div class="tm-flex">
                             <div class="tm-purple-bg tm-box-pad tm-bordered-box tm-no-border-top">
