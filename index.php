@@ -113,7 +113,7 @@ http://www.templatemo.com/tm-496-pipeline
                             <p>Entre com seu usuario e senha para assim continuar a ajudar as campanhas a concluir seus objetivos.</p>
 							<p>Continue abraçando causas, muitos precisam de um <b>Abraço seu</b>.
 							<p> <p>
-                            <a href="http://localhost/ProjetoDevOpsVSTS/abracesuacausa/login.php" class="tm-button tm-button-normal">Efetuar Login</a>
+                            <a href="gitlogin.php" class="tm-button tm-button-normal">Efetuar Login</a>
                         </div>
                         <div class="tm-flex">
                             <div class="tm-purple-bg tm-box-pad tm-bordered-box tm-no-border-top">
