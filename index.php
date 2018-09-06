@@ -101,7 +101,7 @@ http://www.templatemo.com/tm-496-pipeline
                     <!-- slider -->
 					<div id="Cadastrese" class="tm-content-box">
                         <div class="tm-box-pad tm-bordered-box">
-                            <h2 class="tm-section-title">Você ainda não possui um cadastro?</h2>
+                            <h2 class="tm-section-title">Você ainda não possui um cadastro teste?</h2>
                             <p>Cadastre-se para ajudar as campanhas a concluir seus objetivos.</p>
 							<p>Se cadastrando você pode fazer a diferença, tornando assim o mundo um lugar melhor. </p>
                             <a href="efetuarcadastro.php" class="tm-button tm-button-normal">Clique aqui para se cadastrar</a>
