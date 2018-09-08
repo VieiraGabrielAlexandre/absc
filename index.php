@@ -91,7 +91,7 @@ http://www.templatemo.com/tm-496-pipeline
                         <p class="tm-section-description">Podendo assim fazer parte dessa grande empreitada que é mudar a vida de milhares de pessoas.</span></p> 
                             <p class="tm-section-description">Ao se filiar você também está estabelecendo uma relação com as instituições que possuem cadastro em nosso site <i>Abrace Sua Causa</i>, você poderá visualizar diversas campanhas que por sua vez estarão de braços abertos para tirar qualquer dúvida que venha a ter.</p>
 							<p>Assim sabendo que sua doação terá uma tratativa devida para que não seja desperdiçada;</p>
-							<li class="tm-nav-item"><a href="#contact" class="tm-nav-item-link tm-button">
+							<li class="tm-nav-item"><a href="campanhas.php" class="tm-nav-item-link tm-button">
                                 <i class="fa fa-envelope-o tm-nav-fa"></i>Campanhas</a>
                             </li>
                         </div>       

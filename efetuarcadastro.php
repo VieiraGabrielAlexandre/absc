@@ -34,7 +34,8 @@ http://www.templatemo.com/tm-496-pipeline
                     <h1 class="tm-banner-title" style="color:ff4d00;">Abrace Sua Causa s2</h1>                        
                 </div>                    
             </section>
-				<form method="POST" action="inserircadastro.php">
+				<form id="legenda" method="POST" action="inserircadastro.php">
+                    <div id="login">
 					<h2>Efetuar Cadastro</h2>					
 					<label>Nome</label>
 					<input type="text" name="nome" placeholder="Nome" required autofocus>
@@ -42,16 +43,20 @@ http://www.templatemo.com/tm-496-pipeline
 					<input type="email" name="email" placeholder="Email">
 					<label>Senha</label>
 					<input type="password" name="senha" placeholder="Senha">
-					<input type="hidden" name="classcliente" value="3">
+					<input type="hidden" name="classcliente" value="2">
 					<input type="hidden" name="situacao" value="1"><br>
 					<label>Data do cadastro</label>
-					<input type="text" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
-					
+                    <input type="text" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
+                    <br>				
 					<button type="submit">Efetuar Cadastro</button>
-				</form>
-			<footer class="tm-footer">
+                </form>
+                
+                <form id="legenda">
+                <label><a id="l1" href="cadastrarinstituicao.php">Pessoa Juridica</a></label>
+                </form>
+                <footer class="tm-footer">
                         <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</a></p>
-                    </footer>
+                </footer>
 
                 </div>
             </div>             
