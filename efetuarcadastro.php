@@ -49,20 +49,6 @@ http://www.templatemo.com/tm-496-pipeline
 					
 					<button type="submit">Efetuar Cadastro</button>
 				</form>
-			<p>
-            <?php if(isset($_SESSION['loginErro'])){
-                echo $_SESSION['loginErro'];
-                unset($_SESSION['loginErro']);
-            }?>
-			</p>
-			<p>
-            <?php 
-            if(isset($_SESSION['logindeslogado'])){
-                echo $_SESSION['logindeslogado'];
-                unset($_SESSION['logindeslogado']);
-            }
-            ?>
-			</p>
 			<footer class="tm-footer">
                         <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</a></p>
                     </footer>

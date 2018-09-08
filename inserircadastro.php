@@ -27,7 +27,7 @@
 			$_SESSION['usuarioSituacao'] = $resultado['situacao'];
 			$_SESSION['usuarioClasse'] = $resultado['classcliente'];
 			$_SESSION['usuarioCriacao'] = $resultado['criacao'];
-        header('Location: cliente.php');
+        header('Location: novousuario.php');
     } else{
         header('Location: efetuarcadastro.php');
     }

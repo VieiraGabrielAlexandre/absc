@@ -7,5 +7,5 @@
 	echo "Email: ". $_SESSION['usuarioEmail'];
 ?>
 <br>
-<h1>Este usuario sera uma ONG</h1>
+<h1>Este usuario sera um cliente</h1>
 <a href="sair.php">Sair</a>
