@@ -34,11 +34,16 @@ http://www.templatemo.com/tm-496-pipeline
                     <h1 class="tm-banner-title" style="color:ff4d00;">Abrace Sua Causa s2</h1>                        
                 </div>                    
             </section>
-				<form id="legenda" method="POST" action="inserircadastro.php">
+				<form id="legenda" method="POST" action="inserircadastrojuridica.php">
                     <div id="login">
-					<h2>Efetuar Cadastro</h2>					
-					<label>Razão Social</label>
-					<input type="text" name="nome" placeholder="Razão Social" required autofocus>
+                    <h2>Efetuar Cadastro</h2>
+                    <label>CNPJ</label>
+                    <input type="text" name="razao" placeholder="Razão Social" required autofocus>					
+                    <label>Razão Social</label>
+                    <input type="text" name="nome" placeholder="Razão Social" required autofocus>					
+					<label>Nome do contato</label>
+                    <input type="text" name="razao" placeholder="Razão Social">
+                    <br>
 					<label>Email</label>
 					<input type="email" name="email" placeholder="Email">
 					<label>Senha</label>
@@ -52,7 +57,7 @@ http://www.templatemo.com/tm-496-pipeline
                 </form>
                 
                 <form id="legenda">
-                <label><a id="l1" href="cadastrarinstituicao.php">Pessoa Juridica</a></label>
+                <label><a id="l1" href="efetuarcadastro.php">Pessoa Fisica</a></label>
                 </form>
                 <footer class="tm-footer">
                         <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</a></p>
