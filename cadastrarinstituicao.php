@@ -42,8 +42,7 @@ http://www.templatemo.com/tm-496-pipeline
                     <label>Razão Social</label>
                     <input type="text" name="nome" placeholder="Razão Social" required autofocus>					
 					<label>Nome do contato</label>
-                    <input type="text" name="razao" placeholder="Razão Social">
-                    <br>
+					<input type="text" name="razao" placeholder="Razão Social">
 					<label>Email</label>
 					<input type="email" name="email" placeholder="Email">
 					<label>Senha</label>

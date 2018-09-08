@@ -15,8 +15,8 @@
     $link = $objDb->conecta_mysql();
 	
 	
-    $sql = "insert into instituicao(CNPJ,RAZAO,EMAIL,NOMECONTATO,SENHA,situacoe_id,niveis_acesso_id,created,modified) values
-        ('$cnpj','$razao','$nome','$email','$senha','$situacao','$classcliente','$criacao','$criacao')";
+    $sql = "insert into instituicao (CNPJ,RAZAO,EMAIL,NOMECONTATO,SENHA,situacoe_id,niveis_acesso_id,created,modified) values
+        ('$cnpj','$razao','$email','$nome','$senha','$situacao','$classcliente','$criacao','$criacao')";
 	
 	$resultado_usuario = mysqli_query($con2, $sql);
 	$resultado = mysqli_fetch_assoc($resultado_usuario);
@@ -32,6 +32,6 @@
         $_SESSION['usuarioCriacao'] = $resultado['criacao'];
         header('Location: novousuario.php');
     } else{
-        header('Location: efetuarcadastro.php');
+        header('Location: inserircadastrojuridica.php');
     }
 ?>

@@ -145,4 +145,11 @@ function formataCampo(campo, Mascara, evento) {
     }else { 
             return true; 
     }
+    //adiciona mascara ao RG
+    function MascaraRG(rg){
+    if((rg)==false){
+            event.returnValue = false;
+    }       
+    return formataCampo(rg, '00.000.000-0', event);
+    }
 }
