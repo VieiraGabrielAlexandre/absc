@@ -14,16 +14,20 @@
         
         //Encontrado um usuario na tabela usuário com os mesmos dados digitado no formulário
         if(isset($resultado)){
-            $_SESSION['usuarioId'] = $resultado['id'];
-            $_SESSION['usuarioNome'] = $resultado['nome'];
-            $_SESSION['usuarioNiveisAcessoId'] = $resultado['niveis_acesso_id'];
-            $_SESSION['usuarioEmail'] = $resultado['email'];
+            $_SESSION['usuarioCNPJ'] = $resultado['CNPJ'];
+            $_SESSION['usuarioRAZAO'] = $resultado['RAZAOSOCIAL'];
+            $_SESSION['usuarioEmail'] = $resultado['EMAIL'];
+            $_SESSION['usuarioNome'] = $resultado['NOMECONTATO'];
+            $_SESSION['usuarioSenha'] = $resultado['senha'];
+            $_SESSION['usuarioNiveisAcessoId'] = $resultado['classcliente'];
+            $_SESSION['usuarioSituacao'] = $resultado['situacao'];
+            $_SESSION['usuarioCriacao'] = $resultado['criacao'];
             if($_SESSION['usuarioNiveisAcessoId'] == "1"){
-                header("Location: administrativo.php");
+                header("Location: colaborador.php");
             }elseif($_SESSION['usuarioNiveisAcessoId'] == "2"){
                 header("Location: colaborador.php");
             }else{
-                header("Location: cliente.php");
+                header("Location: colaborador.php");
             }
         //Não foi encontrado um usuario na tabela usuário com os mesmos dados digitado no formulário
         //redireciona o usuario para a página de login
