@@ -1,6 +1,6 @@
 <?php
     session_start();
-    echo "Usuario: ". $_SESSION['usuarioNome'];    
+    echo "Razão Social: ". $_SESSION['usuarioEmail'];    
 ?>
 <br>
 <h1>Este sera uma Organização</h1>

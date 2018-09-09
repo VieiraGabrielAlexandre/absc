@@ -52,7 +52,7 @@ http://www.templatemo.com/tm-496-pipeline
 				</form>
 				
 				<form id="legenda">
-				<label> <a id="l1" href="efetuarcadastro.php">Cadastrar-se</a></label>
+				<label> <a id="l1" href="loginj.php">Instituição</a></label>
 				<label> <a id="l2" href="">esqueci minha senha</a></label>
 				</form>
                                 

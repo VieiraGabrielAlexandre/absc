@@ -23,7 +23,7 @@
 			$_SESSION['usuarioNome'] = $resultado['nome'];
 			$_SESSION['usuarioEmail'] = $resultado['email'];
 			$_SESSION['usuarioSenha'] = $resultado['senha'];
-			$_SESSION['usuarioNiveisAcessoId'] = $resultado['niveis_acesso_id'];
+			$_SESSION['usuarioNiveisAcessoId'] = $resultado['classcliente'];
 			$_SESSION['usuarioSituacao'] = $resultado['situacao'];
 			$_SESSION['usuarioClasse'] = $resultado['classcliente'];
 			$_SESSION['usuarioCriacao'] = $resultado['criacao'];

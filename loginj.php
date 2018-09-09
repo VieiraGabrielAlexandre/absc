@@ -18,6 +18,7 @@ http://www.templatemo.com/tm-496-pipeline
     <link rel="stylesheet" href="css/bootstrap.min.css">                                 <!-- Bootstrap style, http://v4-alpha.getbootstrap.com/ -->
     <link rel="stylesheet" href="css/magnific-popup.css">                                <!-- Magnific pop up style, http://dimsemenov.com/plugins/magnific-popup/ -->
     <link rel="stylesheet" href="css/templatemo-style.css">                              <!-- Templatemo style -->
+	<link rel="stylesheet" type="text/css" href="css/login.css"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,39 +29,52 @@ http://www.templatemo.com/tm-496-pipeline
       </head>
 			      <body>
         <div class="container-fluid">
-
+         <section id="corpo">
             <section id="welcome" class="tm-content-box tm-banner margin-b-10">
                 <div class="tm-banner-inner">
-                    <h1 class="tm-banner-title" style="color:ff4d00;">Abrace Sua Causa s2</h1>                        
+                    <h1 class="tm-banner-title">Abrace Sua Causa</h1>                        
                 </div>                    
             </section>
-				<form id="legenda" method="POST" action="inserircadastrojuridica.php">
-                    <div id="login">
-                    <h2>Efetuar Cadastro</h2>
-                    <label>CNPJ</label>
-                    <input type="text" name="cnpj" placeholder="Razão Social" required autofocus>					
-                    <label>Razão Social</label>
-                    <input type="text" name="razao" placeholder="Razão Social" required autofocus>					
-					<label>Nome do contato</label>
-					<input type="text" name="nome" placeholder="Razão Social">
+			
+			    <p id="p1"><a href="">voltar</a><p>
+					
+			<form id="login" method="POST" action="validaj.php">
+				
+                                <div id=login>
+					<h2>LOGIN</h2>
 					<label>Email</label>
-					<input type="email" name="email" placeholder="Email">
+					<input type="email" name="email" placeholder="Email" required autofocus>
 					<label>Senha</label>
-					<input type="password" name="senha" placeholder="Senha">
-					<input type="hidden" name="classcliente" value="2">
-					<input type="hidden" name="situacao" value="1"><br>
-					<label>Data do cadastro</label>
-                    <input type="text" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
-                    <br>				
-					<button type="submit">Efetuar Cadastro</button>
-                </form>
-                
-                <form id="legenda">
-                <label><a id="l1" href="efetuarcadastro.php">Pessoa Fisica</a></label>
-                </form>
-                <footer class="tm-footer">
+					<input type="password" name="senha" placeholder="Senha" required>
+					<button type="submit">Acessar</button>
+				</div>
+					
+				</form>
+				
+				<form id="legenda">
+				<label> <a id="l1" href="login.php">Pessoa Fisica</a></label>
+				<label> <a id="l2" href="">esqueci minha senha</a></label>
+				</form>
+                                
+                                 
+				</section>
+			<p>
+            <?php if(isset($_SESSION['loginErro'])){
+                echo $_SESSION['loginErro'];
+                unset($_SESSION['loginErro']);
+            }?>
+			</p>
+			<p>
+            <?php 
+            if(isset($_SESSION['logindeslogado'])){
+                echo $_SESSION['logindeslogado'];
+                unset($_SESSION['logindeslogado']);
+            }
+            ?>
+			</p>
+			<footer class="tm-footer">
                         <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</a></p>
-                </footer>
+                    </footer>
 
                 </div>
             </div>             
