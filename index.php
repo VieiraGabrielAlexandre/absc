@@ -75,7 +75,7 @@ http://www.templatemo.com/tm-496-pipeline
                                     <h2 class="tm-section-title">Novidades</h2>
                                     <p>Novas campanhas noticias sobre entidades beneficientes, lugares que precisam de ajuda,etc. Acesse nossa pagina de novidades</p>    
                                 </div>                            
-                                <a href="#" class="tm-welcome-link tm-button">Newsletter</a>
+                                <a href="Newsletter/newsletter.html" class="tm-welcome-link tm-button">Newsletter</a>
                             </div>
                         </div>
                     </div>
