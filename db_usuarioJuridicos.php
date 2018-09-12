@@ -2,18 +2,23 @@
 class dbconsultapessoajuridica {
 
     //host
-    public $host = '127.0.0.1';
+        public $host = '127.0.0.1:53870';
+        /*
+        $servidor = "127.0.0.1:53870";
+        $usuario = "azure";
+        $senha = "6#vWHD_$";
+        $dbname = "localdb";
+        */
+        //usuario
+        public $usuario = 'azure';
 
-    //usuario
-    public $usuario = 'root';
+        //senha
+        public $senha = '6#vWHD_$';
 
-    //senha
-    public $senha = '';
+        //banco de dados
+        public $database = 'usuarios';
 
-    //banco de dados
-    public $database = 'usuarios';
-
-    public function conecta_mysql(){
+        public function conecta_mysql(){
          
         //cria a conexão
         $con2 = mysqli_connect($this->host, $this->usuario, $this->senha, $this->database);
