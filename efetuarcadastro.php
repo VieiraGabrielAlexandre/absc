@@ -46,7 +46,7 @@ http://www.templatemo.com/tm-496-pipeline
 					<input type="hidden" name="classcliente" value="3">
 					<input type="hidden" name="situacao" value="1"><br>
 					<label>Data do cadastro</label>
-                    <input type="text" disable="true" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
+                    <input type="text" disabled="true" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
                     <br>				
 					<button type="submit">Efetuar Cadastro</button>
                 </form>
