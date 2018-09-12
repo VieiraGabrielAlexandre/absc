@@ -2,13 +2,13 @@
 class dbconsultapessoafisica {
 
     //host
-    public $host = '127.0.0.1';
+    public $host = '127.0.0.1:53870';
 
     //usuario
-    public $usuario = 'root';
+    public $usuario = 'azure';
 
     //senha
-    public $senha = '';
+    public $senha = '6#vWHD_$';
 
     //banco de dados
     public $database = 'usuarios';
