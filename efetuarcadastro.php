@@ -61,7 +61,7 @@ http://www.templatemo.com/tm-496-pipeline
                     <input name="rg" type="text" placeholder="RG" id="rg" size="30" maxlength="12" onKeyPress="MascaraRG(form1.rg);" />-->
 					<input type="hidden" name="classcliente" value="3">
 					<input type="hidden" name="situacao" value="1"><br>
-					<label>Data do cadastro = <?php echo date('Y-m-d h:m:s');?></label> 
+					<label name="dataatual">Data do cadastro = <?php echo date('Y-m-d h:m:s');?></label> 
                     <br>				
 					<button type="submit">Efetuar Cadastro</button>
                 </form>
