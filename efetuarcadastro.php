@@ -25,7 +25,7 @@ http://www.templatemo.com/tm-496-pipeline
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <![endif]-->
       </head>
-			      <body>
+	  <body>
         <div class="container-fluid">
 
             <section id="welcome" class="tm-content-box tm-banner margin-b-10">
@@ -42,27 +42,10 @@ http://www.templatemo.com/tm-496-pipeline
 					<input type="email" name="email" placeholder="Email">
 					<label>Senha</label>
                     <input type="password" name="senha" placeholder="Senha">
-                    <br>
-                    <!--<label>CEP:</label>
-                    <input type="number" name="cep" placeholder="CEP" onKeyPress="MascaraCep(form1.cep);"
-                        maxlength="10" onBlur="ValidaCep(form1.cep)">
-                    <!--<br><br>DATA:
-                    <input type="text" name="data" onKeyPress="MascaraData(form1.data);"
-                     maxlength="10" onBlur= "ValidaDataform1.data);">
-                    <label>Telefone: </label>
-                    <input type="number" name="tel" placeholder="Telefone" onKeyPress="MascaraTelefone(form1.tel);" 
-                        maxlength="14"  onBlur="ValidaTelefone(form1.tel);">
-                    <br>
-                    <label>CPF:</label>
-                    <input type="number" name="cpf" placeholder="cpf"onBlur="ValidarCPF(form1.cpf);" 
-                        onKeyPress="MascaraCPF(form1.cpf);" maxlength="14">
-                    <label>RG</label>
-                    <input name="rg" type="text" placeholder="RG" id="rg" size="30" maxlength="12" onKeyPress="MascaraRG(form1.rg);" />-->
 					<input type="hidden" name="classcliente" value="3">
 					<input type="hidden" name="situacao" value="1"><br>
                     <label>Data do cadastro</label>
                     <input type="text" disabled="true" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
-                                        
                     <br>				
 					<button type="submit">Efetuar Cadastro</button>
                 </form>

@@ -38,19 +38,15 @@ http://www.templatemo.com/tm-496-pipeline
                     <div id="login">
                     <h2>Efetuar Cadastro</h2>
                     <label>CNPJ</label>
-                    <input type="number" name="cnpj" placeholder="Razão Social" onKeyPress="MascaraCNPJ(form1.cnpj);" 
-                        maxlength="18" onBlur="ValidarCNPJ(form1.cnpj);" required autofocus>					
+                    <input type="text" name="cnpj" placeholder="CNPJ" required autofocus>					
                     <label>Razão Social</label>
-                    <input type="text" name="razao" placeholder="Razão Social" required autofocus>					
+                    <input type="text" name="razao" placeholder="Razão Social">					
 					<label>Nome do contato</label>
 					<input type="text" name="nome" placeholder="Razão Social">
 					<label>Email</label>
 					<input type="email" name="email" placeholder="Email">
 					<label>Senha</label>
                     <input type="password" name="senha" placeholder="Senha">
-                    <label>Telefone: </label>
-                    <input type="number" name="tel" placeholder="Telefone" onKeyPress="MascaraTelefone(form1.tel);" 
-                        maxlength="14"  onBlur="ValidaTelefone(form1.tel);">
 					<input type="hidden" name="classcliente" value="2">
 					<input type="hidden" name="situacao" value="1"><br>
 					<label>Data do cadastro</label>
