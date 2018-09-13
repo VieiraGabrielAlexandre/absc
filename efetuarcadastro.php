@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" script language="JavaScript" type="text/javascript" src="MascaraValidacao.js"></script> 
     <title>Abrace Sua Causa s2</title>
 <!--
 Pipeline
@@ -42,7 +42,23 @@ http://www.templatemo.com/tm-496-pipeline
 					<label>Email</label>
 					<input type="email" name="email" placeholder="Email">
 					<label>Senha</label>
-					<input type="password" name="senha" placeholder="Senha">
+                    <input type="password" name="senha" placeholder="Senha">
+                    <br>
+                    <label>CEP:</label>
+                    <input type="text" name="cep" placeholder="CEP" onKeyPress="MascaraCep(form1.cep);"
+                        maxlength="10" onBlur="ValidaCep(form1.cep)">
+                    <!--<br><br>DATA:
+                    <input type="text" name="data" onKeyPress="MascaraData(form1.data);"
+                     maxlength="10" onBlur= "ValidaDataform1.data);">-->
+                    <label>Telefone: </label>
+                    <input type="text" name="tel" placeholder="Telefone" onKeyPress="MascaraTelefone(form1.tel);" 
+                        maxlength="14"  onBlur="ValidaTelefone(form1.tel);">
+                    <br>
+                    <label>CPF:</label>
+                    <input type="text" name="cpf" placeholder="cpf"onBlur="ValidarCPF(form1.cpf);" 
+                        onKeyPress="MascaraCPF(form1.cpf);" maxlength="14">
+                    <label>RG</label>
+                    <input name="rg" type="text" placeholder="RG" id="rg" size="30" maxlength="12" onKeyPress="MascaraRG(form1.rg);" />
 					<input type="hidden" name="classcliente" value="3">
 					<input type="hidden" name="situacao" value="1"><br>
 					<label>Data do cadastro = <?php echo date('Y-m-d h:m:s');?></label> 
