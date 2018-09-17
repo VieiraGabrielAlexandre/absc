@@ -16,7 +16,7 @@ http://www.templatemo.com/tm-496-pipeline
     <link rel="stylesheet" href="css/bootstrap.min.css">                                 <!-- Bootstrap style, http://v4-alpha.getbootstrap.com/ -->
     <link rel="stylesheet" href="css/magnific-popup.css">                                <!-- Magnific pop up style, http://dimsemenov.com/plugins/magnific-popup/ -->
     <link rel="stylesheet" href="css/templatemo-style.css">                              <!-- Templatemo style -->
-	<link rel="stylesheet" href="css/login.css"> 
+	<link rel="stylesheet" href="css/index.css"> 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -75,7 +75,7 @@ http://www.templatemo.com/tm-496-pipeline
                                     <h2 class="tm-section-title">Novidades</h2>
                                     <p>Novas campanhas noticias sobre entidades beneficientes, lugares que precisam de ajuda,etc. Acesse nossa pagina de novidades</p>    
                                 </div>                            
-                                <a href="Newsletter/newsletter.html" class="tm-welcome-link tm-button">Newsletter</a>
+                                <a href="#" class="tm-welcome-link tm-button">Newsletter</a>
                             </div>
                         </div>
                     </div>
