@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Abrace Sua Causa s2</title>
 <!--
 Pipeline
@@ -17,7 +18,7 @@ http://www.templatemo.com/tm-496-pipeline
     <link rel="stylesheet" href="css/bootstrap.min.css">                                 <!-- Bootstrap style, http://v4-alpha.getbootstrap.com/ -->
     <link rel="stylesheet" href="css/magnific-popup.css">                                <!-- Magnific pop up style, http://dimsemenov.com/plugins/magnific-popup/ -->
     <link rel="stylesheet" href="css/templatemo-style.css">                              <!-- Templatemo style -->
-
+    <link rel="stylesheet" type="text/css" href="css/efetuarcadastro.css"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -25,40 +26,51 @@ http://www.templatemo.com/tm-496-pipeline
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <![endif]-->
       </head>
-	  <body>
+			      <body>
         <div class="container-fluid">
 
             <section id="welcome" class="tm-content-box tm-banner margin-b-10">
                 <div class="tm-banner-inner">
-                    <h1 class="tm-banner-title" style="color:ff4d00;">Abrace Sua Causa s2</h1>                        
+                    <h1 class="tm-banner-title">Abrace Sua Causa s2</h1>                        
                 </div>                    
             </section>
 				<form id="legenda" method="POST" action="inserircadastro.php">
                     <div id="login">
 					<h2>Efetuar Cadastro</h2>					
 					<label>Nome</label>
-					<input type="text" name="nome" placeholder="Nome" required autofocus>
+					<input type="text" name="nome" placeholder="" required autofocus>
+					<br>
 					<label>Email</label>
-					<input type="email" name="email" placeholder="Email">
+					<input type="email" name="email" placeholder="">
+					<br>
 					<label>Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+					<input type="password" name="senha" placeholder="">
 					<input type="hidden" name="classcliente" value="3">
 					<input type="hidden" name="situacao" value="1"><br>
-                    <label>Data do cadastro</label>
-                    <input type="hidden" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
+					
+					
+					<div id="login2">
+					<label>Data do cadastro</label>
+                    <input  type="text" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
+					</div>
                     <br>				
 					<button type="submit">Efetuar Cadastro</button>
+					<br>
+					<label><a id="l1" href="cadastrarinstituicao.php">Pessoa Juridica</a></label>
+					</div>
+					
                 </form>
                 
-                <form id="legenda">
-                <label><a id="l1" href="cadastrarinstituicao.php">Pessoa Juridica</a></label>
-                </form>
+                
+                
+                
                 <footer class="tm-footer">
                         <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</a></p>
                 </footer>
 
-                </div>
-            </div>             
+                
+            </div>      
+            </div>                         
         </div>
         
         <!-- load JS files -->
