@@ -38,7 +38,15 @@ http://www.templatemo.com/tm-496-pipeline
             <div class="tm-body">
                 <div class="tm-sidebar">
                     <nav class="tm-main-nav">
-                        <ul class="tm-main-nav-ul">
+                        <ul class="tm-main-nav-ul"> 				
+                        <?php
+					        session_start();
+    				        echo "Usuario: ". $_SESSION['usuarioNome'];
+				        ?>
+				        <br>
+				        <?php
+					        echo "Email: ". $_SESSION['usuarioEmail'];
+				        ?>
                             <li class="tm-nav-item"><a href="#welcome" class="tm-nav-item-link tm-button">
                                 <i class="fa fa-smile-o tm-nav-fa"></i>Bem-Vindo</a>
                             </li>
@@ -60,14 +68,7 @@ http://www.templatemo.com/tm-496-pipeline
                    </script>  
 <div align="center" 				   
      <div class="tm-body">  
-				<?php
-					session_start();
-    				echo "Usuario: ". $_SESSION['usuarioNome'];
-				?>
-				<br>
-				<?php
-					echo "Email: ". $_SESSION['usuarioEmail'];
-				?>
+
 				<br>
 					<h1>Este usuario sera um cliente</h1>
 					<a href="sair.php">Sair</a>
