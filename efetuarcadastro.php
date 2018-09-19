@@ -36,7 +36,7 @@ http://www.templatemo.com/tm-496-pipeline
             </section>
 				<form id="legenda" method="POST" action="inserircadastro.php">
                     <div id="login">
-					<h2>Efetuar Cadastro</h2>					
+					<h2>Efetuar Cadastro Pessoa</h2>					
 					<label>Nome</label>
 					<input type="text" name="nome" placeholder="" required autofocus>
                     <br>
