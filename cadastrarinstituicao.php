@@ -37,7 +37,7 @@ http://www.templatemo.com/tm-496-pipeline
             </section>
 				<form name="form1" id="legenda" method="POST" action="inserircadastrojuridica.php">
                     <div id="login">
-                    <h2>Efetuar Cadastro</h2>
+                    <h2>Efetuar Cadastro da instituição</h2>
                     <label>CNPJ</label>
                     <input type="text" name="cnpj" onKeyPress="MascaraCNPJ(form1.cnpj);"
                      placeholder="CNPJ" onBlur="ValidarCNPJ(form1.cnpj);" maxlength="18" required autofocus>					
