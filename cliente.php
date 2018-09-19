@@ -48,7 +48,7 @@ http://www.templatemo.com/tm-496-pipeline
                                 <i class="fa fa-smile-o tm-nav-fa"></i>Bem-Vindo</a>
                             </li>
                             <li class="tm-nav-item"><a href="#Campanhas" class="tm-nav-item-link tm-button">
-                                <i class="fa fa-image tm-nav-fa"></i>Campanhas</a>
+                                <i class="fa fa-home tm-nav-fa"></i>Campanhas</a>
                             </li>
                             <li class="tm-nav-item"><a href="#Cadastrese" class="tm-nav-item-link tm-button">
                                 <i class="fa fa-sitemap tm-nav-fa"></i>Cadastre-se</a>
