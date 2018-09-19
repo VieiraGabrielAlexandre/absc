@@ -31,7 +31,7 @@ http://www.templatemo.com/tm-496-pipeline
 			
             <section id="welcome2" class="tm-content-box tm-banner margin-b-10">
                 <div class="tm-banner-inner">
-                    <h1 class="tm-banner-title">Abrace Sua Causa s2</h1>                        
+                    <h1 class="tm-banner-title">Abrace Sua Causa</h1>                        
                 </div>                    
             </section>
 
