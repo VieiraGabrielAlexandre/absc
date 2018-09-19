@@ -16,7 +16,7 @@ http://www.templatemo.com/tm-496-pipeline
     <link rel="stylesheet" href="css/bootstrap.min.css">                                 <!-- Bootstrap style, http://v4-alpha.getbootstrap.com/ -->
     <link rel="stylesheet" href="css/magnific-popup.css">                                <!-- Magnific pop up style, http://dimsemenov.com/plugins/magnific-popup/ -->
     <link rel="stylesheet" href="css/templatemo-style.css">                              <!-- Templatemo style -->
-	<link rel="stylesheet" href="css/login.css"> 
+	<link rel="stylesheet" href="css/index.css"> 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,15 +24,42 @@ http://www.templatemo.com/tm-496-pipeline
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <![endif]-->
-</head>
-	<body>
+      </head>
+
+      <body>
         <div class="container-fluid">
+			
             <section id="welcome2" class="tm-content-box tm-banner margin-b-10">
                 <div class="tm-banner-inner">
                     <h1 class="tm-banner-title">Abrace Sua Causa s2</h1>                        
                 </div>                    
             </section>
-            <div class="tm-body">  
+
+            <div class="tm-body">
+                <div class="tm-sidebar">
+                    <nav class="tm-main-nav">
+                        <ul class="tm-main-nav-ul">
+                            <li class="tm-nav-item"><a href="#welcome" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-smile-o tm-nav-fa"></i>Bem-Vindo</a>
+                            </li>
+                            <li class="tm-nav-item"><a href="#Campanhas" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-image tm-nav-fa"></i>Campanhas</a>
+                            </li>
+                            <li class="tm-nav-item"><a href="#Cadastrese" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-sitemap tm-nav-fa"></i>Cadastre-se</a>
+                            </li>
+							<li class="tm-nav-item"><a href="#TenhoCadastro" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-sitemap tm-nav-fa"></i>Tenho Cadastro</a>
+                            </li>
+                            <li class="tm-nav-item"><a href="#contact" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>Contate-nos</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                   </script>  
+<div align="center" 				   
+     <div class="tm-body">  
 				<?php
 					session_start();
     				echo "Usuario: ". $_SESSION['usuarioNome'];
@@ -45,6 +72,12 @@ http://www.templatemo.com/tm-496-pipeline
 					<h1>Este usuario sera um cliente</h1>
 					<a href="sair.php">Sair</a>
                     <footer class="tm-footer">
+                    <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</a></p>
+                    </footer>
+            </div>
+</div>
+    </body>
+    </html>                    <footer class="tm-footer">
                     <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</a></p>
                     </footer>
             </div>
