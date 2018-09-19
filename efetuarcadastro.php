@@ -39,7 +39,11 @@ http://www.templatemo.com/tm-496-pipeline
 					<h2>Efetuar Cadastro</h2>					
 					<label>Nome</label>
 					<input type="text" name="nome" placeholder="" required autofocus>
+                    <br>
+                    <label>Cpf</label>
+					<input type="text" name="cpf" onBlur="ValidarCPF(form1.cpf);" onKeyPress="MascaraCPF(form1.cpf);" maxlength="14">
 					<br>
+                    
 					<label>Email</label>
 					<input type="email" name="email" placeholder="">
 					<br>
