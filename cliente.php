@@ -41,8 +41,9 @@ http://www.templatemo.com/tm-496-pipeline
                         <ul class="tm-main-nav-ul"> 				
                         <?php
 					        session_start();
-                            echo "Bem Vindo";
-    				        echo "Usuario: ". $_SESSION['usuarioNome'];
+                            echo "Bem Vindo ";
+
+    				        echo . $_SESSION['usuarioNome'];
 				        ?>
 				        <br>
                             <li class="tm-nav-item"><a href="#welcome" class="tm-nav-item-link tm-button">
