@@ -4,6 +4,7 @@
 	
 	$nome = $_POST['nome'];
 	$email = $_POST['email'];
+	$cpf = $_POST['cpf'];
 	$senha = $_POST['senha'];
 	$criacao = $_POST['dataatual'];
 	$situacao = $_POST['situacao'];
@@ -13,14 +14,15 @@
     $link = $objDb->conecta_mysql();
 	
 	
-    $sql = "insert into usuarios(nome, email, senha,situacoe_id,niveis_acesso_id,created,modified) values
-        ('$nome','$email','$senha','$situacao','$classcliente','$criacao','$criacao')";
+    $sql = "insert into usuarios(nome, cpf, email, senha,situacoe_id,niveis_acesso_id,created,modified) values
+        ('$nome','$cpf','$email','$senha','$situacao','$classcliente','$criacao','$criacao')";
 	
 	$resultado_usuario = mysqli_query($con2, $sql);
 	$resultado = mysqli_fetch_assoc($resultado_usuario);
 	
     if (mysqli_query($link, $sql)){
 			$_SESSION['usuarioNome'] = $resultado['nome'];
+			$_SESSION['usuarioCpf'] = $resultado['cpf'];
 			$_SESSION['usuarioEmail'] = $resultado['email'];
 			$_SESSION['usuarioSenha'] = $resultado['senha'];
 			$_SESSION['usuarioNiveisAcessoId'] = $resultado['classcliente'];
