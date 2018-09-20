@@ -68,14 +68,14 @@ http://www.templatemo.com/tm-496-pipeline
                                     <h2 class="tm-section-title">Nosso Projeto</h2>
                                     <p>Este projeto detem o objetivo de juntar campanhas de doações pelo mundo...</p>    
                                 </div>                            
-                                <a href="paginadedoacao.php" class="tm-welcome-link tm-button">Saiba Mais</a>
+                                <a href="nossaempresa.php" class="tm-welcome-link tm-button">Saiba Mais</a>
                             </div>
                             <div class="tm-welcome-box">
                                 <div class="tm-welcome-text">
                                     <h2 class="tm-section-title">Novidades</h2>
                                     <p>Novas campanhas noticias sobre entidades beneficientes, lugares que precisam de ajuda,etc. Acesse nossa pagina de novidades</p>    
                                 </div>                            
-                                <a href="#" class="tm-welcome-link tm-button">Newsletter</a>
+                                <a href="/Newsletter/index.html" class="tm-welcome-link tm-button">Newsletter</a>
                             </div>
                         </div>
                     </div>
