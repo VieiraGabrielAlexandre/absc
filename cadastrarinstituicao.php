@@ -35,7 +35,7 @@ http://www.templatemo.com/tm-496-pipeline
                     <h1 class="tm-banner-title" style="color:ff4d00;">Abrace Sua Causa s2</h1>                        
                 </div>                    
             </section>
-				<form name="form1" id="legenda" method="POST" action="inserircadastrojuridica.php">
+				<form id="legenda" method="POST" action="inserircadastrojuridica.php">
                     <div id="login">
                     <h2>Efetuar Cadastro da instituição</h2>
                     <label>CNPJ</label>
@@ -50,8 +50,8 @@ http://www.templatemo.com/tm-496-pipeline
                     <input type="password" name="senha" placeholder="Senha">
 					<input type="hidden" name="classcliente" value="2">
 					<input type="hidden" name="situacao" value="1"><br>
-					<label>Data do cadastro</label>
-                    <label name="dataatual">Data do cadastro = <?php echo date('Y-m-d h:m:s');?></label> 
+                    <label>Data do cadastro</label>
+                    <input  type="text" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
                     <br>				
 					<button type="submit">Efetuar Cadastro</button>
                 </form>
