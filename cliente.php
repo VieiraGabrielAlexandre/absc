@@ -56,8 +56,9 @@ http://www.templatemo.com/tm-496-pipeline
 							<li class="tm-nav-item"><a href="#TenhoCadastro" class="tm-nav-item-link tm-button">
                                 <i class="fa fa-sitemap tm-nav-fa"></i>Tenho Cadastro</a>
                             </li>
-                            <li class="tm-nav-item"><a href="#contact" class="tm-nav-item-link tm-button">
-                                <i class="fa fa-envelope-o tm-nav-fa"></i>Contate-nos</a>
+						    <li class="tm-nav-item"><a href="sair.php" class="tm-nav-item-link tm-button">
+                                <i class="fa fa-envelope-o tm-nav-fa"></i>Sair</a>
+
                             </li>
                         </ul>
                     </nav>
@@ -70,7 +71,6 @@ http://www.templatemo.com/tm-496-pipeline
 					<h1>Este usuario sera um cliente</h1>
 					<a href="sair.php">Sair</a>
                     <footer class="tm-footer">
-                    <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</a></p>
                     </footer>
             </div>
 </div>
