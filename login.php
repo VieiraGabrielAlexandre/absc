@@ -40,7 +40,7 @@ http://www.templatemo.com/tm-496-pipeline
 					
 			<form id="login" method="POST" action="valida.php">
 				
-                                <div id=login>
+                                <div id="login">
 					<h2>LOGIN</h2>
 					<label>Email</label>
 					<input type="email" name="email" placeholder="Email" required autofocus>
