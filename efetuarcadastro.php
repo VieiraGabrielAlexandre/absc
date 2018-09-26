@@ -36,18 +36,17 @@ http://www.templatemo.com/tm-496-pipeline
             </section>
 				<form id="legenda" method="POST" action="inserircadastro.php">
                     <div id="login">
-					<h2>Efetuar Cadastro Pessoa</h2>					
+					<h2>Efetuar Cadastro</h2>					
 					<label>Nome</label>
-					<input type="text" name="nome" placeholder="" required autofocus>
-                    <br>
-                    <label>Cpf</label>
-					<input type="text" name="cpf" onBlur="ValidarCPF(form1.cpf);" onKeyPress="MascaraCPF(form1.cpf);" maxlength="14">
 					<br>
-                    
+					<input type="text" name="nome" placeholder="" required autofocus>
+					<br>
 					<label>Email</label>
+	                <br>
 					<input type="email" name="email" placeholder="">
 					<br>
 					<label>Senha</label>
+					<br>
 					<input type="password" name="senha" placeholder="">
 					<input type="hidden" name="classcliente" value="3">
 					<input type="hidden" name="situacao" value="1"><br>
@@ -68,14 +67,15 @@ http://www.templatemo.com/tm-496-pipeline
                 
                 
                 
-                <footer class="tm-footer">
-                        <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</a></p>
-                </footer>
+                
 
                 
             </div>      
             </div>                         
         </div>
+		<footer class="tm-footer">
+                        <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</a></p>
+                </footer>
         
         <!-- load JS files -->
         
