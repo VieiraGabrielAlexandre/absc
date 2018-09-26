@@ -45,7 +45,7 @@ http://www.templatemo.com/tm-496-pipeline
                		<br>		
                     <label class="inpute">Razão Social</label>
 					<br>
-					<input class="inpute" type="text" name="razao" placeholder="" required autofocus>	
+					<input class="inpute" type="text" name="razao" placeholder="">	
                     <br>
 					<label class="inpute">Nome do contato</label>
                     <br>  		
@@ -59,7 +59,6 @@ http://www.templatemo.com/tm-496-pipeline
                     <br>
                     <input class="inputd" type="password" name="senha" placeholder="">
 				    <br>
-                    <label>Data do cadastro</label>
                     <input  type="hidden" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
 					<br>
 					<input type="hidden" name="classcliente" value="2">
