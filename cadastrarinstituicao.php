@@ -59,6 +59,7 @@ http://www.templatemo.com/tm-496-pipeline
                     <br>
                     <input class="inputd" type="password" name="senha" placeholder="">
 				    <br>
+                    
                     <input  type="hidden" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
 					<br>
 					<input type="hidden" name="classcliente" value="2">
