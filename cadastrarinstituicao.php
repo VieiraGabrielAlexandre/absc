@@ -56,6 +56,7 @@ http://www.templatemo.com/tm-496-pipeline
 					<input class="inputd" type="email" name="email" placeholder="">
 					<br>
 					<label class="inputd">Senha</label>
+                    <br>
                     <input class="inputd" type="password" name="senha" placeholder="">
 				    <br>
                     <label>Data do cadastro</label>
@@ -63,8 +64,6 @@ http://www.templatemo.com/tm-496-pipeline
 					<br>
 					<input type="hidden" name="classcliente" value="2">
 					<input type="hidden" name="situacao" value="1">			
-			        <input type="hidden" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
-					
 					
 					
 					
