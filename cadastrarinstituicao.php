@@ -57,6 +57,9 @@ http://www.templatemo.com/tm-496-pipeline
 					<br>
 					<label class="inputd">Senha</label>
 				    <br>
+                    <label>Data do cadastro</label>
+                    <input  type="hidden" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
+					</div>
 					<input class="inputd" type="password" name="senha" placeholder="">
 					<br>
 					<input type="hidden" name="classcliente" value="2">
