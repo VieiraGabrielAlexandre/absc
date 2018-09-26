@@ -59,6 +59,16 @@ http://www.templatemo.com/tm-496-pipeline
                 </div>
                 
                 <div class="tm-main-content">
+				
+				<h1>Missão</h1>
+				<p>Nossa empresa existe para dar maior comodidade para aqueles que desejam fazer a diferença na vida de milhares de pessoas. Com total transparêcia temos como objetivo intermediar doações para todas as instituições filantropicas que estiverem filiadas a nós.</p>
+				<h1>Visão</h1>
+				<p>Podemos vislumbrar grandes evoluções com base em projetos de ONGs desenvolvidos para acabar com crises mundiais. Isso é inteiramente fundamental para que independente de raça, cor ou genero possamos alcançar a utopia desejada por todos nós.</p>
+				<h1>Valores</h1>
+				<p>O abrace sua causa é uma plataforma social online que conecta pessoas á oportunidades de voluntariado em causas sociais.
+O nosso proposito e mobilizar pessoas, articular soluções e recursos para impulsionar transformações e fortalecer laços em prol do fortalecimento de causas ainda não conhecidas.
+
+</p>
                 
 
                     <footer class="tm-footer">
