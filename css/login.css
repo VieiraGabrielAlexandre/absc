@@ -105,14 +105,12 @@ background-color: #D3D3D3;
 
 div#login button {
 position: relative;
-background-color: #2E2E2E;
+background-color: #000000;
 border: 1px solid;
 border-radius: 4px 4px 4px 4px;
 font-family: 'FonteLogo2';
 color: #ffffff;
-font-size: 15px;
-
-	
+font-size: 18px;	
 }	
 
 	
