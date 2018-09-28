@@ -27,13 +27,12 @@
         $_SESSION['usuarioNome'] = $resultado['nome'];
         $_SESSION['usuarioEmail'] = $resultado['email'];
         $_SESSION['usuarioSenha'] = $resultado['senha'];
-        $_SESSION['usuarioNiveisAcessoId'] = $resultado['classcliente'];
         $_SESSION['usuarioSituacao'] = $resultado['situacao'];
         $_SESSION['usuarioClasse'] = $resultado['classcliente'];
         $_SESSION['usuarioCriacao'] = $resultado['criacao'];
         
         header('Location: novousuario.php'); 
     } else{
-        header('Location: cadastrarinstituicao.php');
+        header('Location: inserircadastrojuridica.php');
     }
 ?>
