@@ -33,6 +33,6 @@
         
         header('Location: novousuario.php'); 
     } else{
-        header('Location: inserircadastrojuridica.php');
+        header('Location: cadastrarinstituicao.php');
     }
 ?>
