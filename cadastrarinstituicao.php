@@ -68,11 +68,7 @@ http://www.templatemo.com/tm-496-pipeline
 				
 				<br>
                 <label><a id="l1" href="efetuarcadastro.php">Pessoa Fisica</a></label>
-					
-
-               
-
-                
+                </form>
             </div>             
         </div>
 		<footer class="tm-footer">
