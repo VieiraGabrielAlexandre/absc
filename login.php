@@ -32,7 +32,7 @@ http://www.templatemo.com/tm-496-pipeline
          <section id="corpo">
             <section id="welcome" class="tm-content-box tm-banner margin-b-10">
                 <div class="tm-banner-inner">
-                    <h1 class="tm-banner-title">Abrace Sua Causa</h1>                        
+                    <h1 class="tm-banner-title">Abrace Sua Causa s2</h1>                        
                 </div>                    
             </section>
 			
@@ -40,12 +40,12 @@ http://www.templatemo.com/tm-496-pipeline
 					
 			<form id="login" method="POST" action="valida.php">
 				
-                                <div id="login">
+                                <div id=login>
 					<h2>LOGIN</h2>
 					<label>Email</label>
-					<input type="email" name="email" placeholder="Email" required autofocus>
+					<input type="email" name="email" placeholder="" required autofocus>
 					<label>Senha</label>
-					<input type="password" name="senha" placeholder="Senha" required>
+					<input type="password" name="senha" placeholder="" required>
 					<button type="submit">Acessar</button>
 				</div>
 					
@@ -71,14 +71,15 @@ http://www.templatemo.com/tm-496-pipeline
                 unset($_SESSION['logindeslogado']);
             }
             ?>
-			</p>
-			<footer class="tm-footer">
-                        <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</a></p>
-                    </footer>
+			
 
                 </div>
             </div>             
         </div>
+		</p>
+			<footer class="tm-footer">
+                        <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</a></p>
+                    </footer>
         
         <!-- load JS files -->
         
