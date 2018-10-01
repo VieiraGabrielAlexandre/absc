@@ -48,16 +48,28 @@ http://www.templatemo.com/tm-496-pipeline
 					<label>Senha</label>
 					<br>
 					<input type="password" name="senha" placeholder="">
-                    <br>
 					<input type="hidden" name="classcliente" value="3">
-					<input type="hidden" name="situacao" value="1">
-                    <input  type="hidden" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
+					<input type="hidden" name="situacao" value="1"><br>
+					
+					
+					<div id="login2">
+					<label>Data do cadastro</label>
+                    <input  type="text" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
+					</div>
+                    <br>				
 					<button type="submit">Efetuar Cadastro</button>
 					<br>
 					<label><a id="l1" href="cadastrarinstituicao.php">Pessoa Juridica</a></label>
 					</div>
 					
                 </form>
+                
+                
+                
+                
+                
+
+                
             </div>      
             </div>                         
         </div>
