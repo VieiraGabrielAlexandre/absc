@@ -73,12 +73,13 @@ border-radius: 4px 4px 4px 4px;
 
 div#login {
 position: relative;	
-font-family: 'FonteLogo2';
-color: #2E2E2E;
+font-family: 'Fontemenu';
+color: #0000000;
 width: 800px;
 margin: auto;
 margin-top:  200px;
 text-align: center;
+font-weight: bold;
 }	
 
 div#login h2{
@@ -87,6 +88,7 @@ text-align: center;
 font-size: 40px;
 right: 2.5%;
 margin-bottom: 30px;
+font-weight: bold;
 }
 
 	
@@ -99,6 +101,8 @@ border-bottom: 2px solid;
 border-bottom-color: #000000;
 color: #696969;
 background-color: #D3D3D3;
+width: 30%;
+margin: 1%;
 }	
 
 
@@ -133,13 +137,14 @@ text-decoration: none;
 font-size: 75%;
 border-radius: 4px 4px 4px 4px;
 color: #ffffff;
+font-size: 85%;
 }
 
 
 
 a#l1 {
 
-right: 125%;
+right: 165%;
 
 
 }
@@ -157,15 +162,22 @@ left: 80%;
 footer {
 position: relative;
 clear: both;
-border-top: 1px solid;	
+border-top: 2px solid;	
 text-align: center;
 font-weight: bold;
 clear: both;
-margin-top: 110px;
-
+margin-top: 13.7%;
+font-family: 'Fontemenu';
+height: 0%;
 
 }	
 
+
+
+footer p{
+color: #000000;
+
+}
 
 
 
