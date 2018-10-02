@@ -19,6 +19,7 @@
 	
 	$resultado_usuario = mysqli_query($con2, $sql);
 	$resultado = mysqli_fetch_assoc($resultado_usuario);
+
 	
     if (mysqli_query($link, $sql)){
 			$_SESSION['usuarioNome'] = $resultado['nome'];
