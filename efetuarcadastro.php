@@ -41,6 +41,9 @@ http://www.templatemo.com/tm-496-pipeline
 					<br>
 					<input type="text" name="nome" placeholder="" required autofocus>
 					<br>
+                    <label>CPF</label>
+                    <input type="text" name="cpf" placeholder="">
+                    <br>
 					<label>Email</label>
 	                <br>
 					<input type="email" name="email" placeholder="">
