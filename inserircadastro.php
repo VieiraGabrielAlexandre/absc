@@ -19,7 +19,12 @@
 	
 	$resultado_usuario = mysqli_query($con2, $sql);
 	$resultado = mysqli_fetch_assoc($resultado_usuario);
-
+	$linha = mysqli_num_rows($resultado);
+	if ($linha == 0){
+		echo "Usuario disponivel.";	
+	} else {
+		echo "Usuario já cadastrado";
+	}
 	
     if (mysqli_query($link, $sql)){
 			$_SESSION['usuarioNome'] = $resultado['nome'];
