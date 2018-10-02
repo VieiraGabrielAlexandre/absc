@@ -53,7 +53,6 @@ http://www.templatemo.com/tm-496-pipeline
 					
 					
 					<div id="login2">
-					<label>Data do cadastro</label>
                     <input  type="hidden" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
 					</div>
                     <br>				
