@@ -64,10 +64,8 @@ http://www.templatemo.com/tm-496-pipeline
 					<br>
 					<input type="hidden" name="classcliente" value="2">
 					<input type="hidden" name="situacao" value="1">			
-					<button type="submit">Efetuar Cadastro</button>
-                </form>
-                <form id="legenda2">
-                <br>
+                    <button type="submit">Efetuar Cadastro</button>
+                    <br>
                 <label><a id="l1" href="efetuarcadastro.php">Pessoa Fisica</a></label>
                 </form>
             </div>             
