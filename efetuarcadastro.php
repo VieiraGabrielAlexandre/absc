@@ -95,7 +95,7 @@ http://www.templatemo.com/tm-496-pipeline
 					<br>
                     <label>CPF</label>
                     <br>
-                    <input type="text" name="cpf" placeholder="" onkeydown="javascript: fMasc( this, mCPF );>
+                    <input type="text" name="cpf" placeholder="">
                     <br>
 					<label>Email</label>
 	                <br>
