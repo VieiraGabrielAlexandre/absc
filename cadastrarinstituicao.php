@@ -43,23 +43,23 @@ http://www.templatemo.com/tm-496-pipeline
 					<br>
                     <input class="inpute" type="text" name="cnpj" placeholder="" required autofocus>
                		<br>		
-                    <label class="inpute">Razão Social</label>
-					<br>
-					<input class="inpute" type="text" name="razao" placeholder="">	
-                    <br>
-					<label class="inpute">Nome do contato</label>
-                    <br>  		
-		            <input class="inpute"  type="text" name="nome" placeholder="">               
-				    <br>
 					<label class="inputd">Email</label>
 					<br>
 					<input class="inputd" type="email" name="email" placeholder="">
 					<br>
-					<label class="inputd">Senha</label>
+                    <label class="inpute">Razão Social</label>
+					<br>
+					<input class="inpute" type="text" name="razao" placeholder="" required autofocus>	
                     <br>
-                    <input class="inputd" type="password" name="senha" placeholder="">
+					<label class="inputd">Senha</label>
 				    <br>
-                    
+					<input class="inputd" type="password" name="senha" placeholder="">
+					<br>
+					<label class="inpute">Nome do contato</label>
+                    <br>  		
+		            <input class="inpute"  type="text" name="nome" placeholder="">               
+				    <br>
+					
                     <input  type="hidden" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
 					<br>
 					<input type="hidden" name="classcliente" value="2">
@@ -69,11 +69,12 @@ http://www.templatemo.com/tm-496-pipeline
 				<br>
                 <label><a id="l1" href="efetuarcadastro.php">Pessoa Fisica</a></label>
                 </form>
+                </form>
             </div>             
         </div>
 		<footer class="tm-footer">
-                        <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</p>
-                </footer>
+            <p class="text-xs-center">Copyright &copy; 2018 Nosso Projeto | Design: UnderFlow20</p>
+        </footer>
         
         <!-- load JS files -->
 
