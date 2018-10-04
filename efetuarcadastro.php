@@ -41,7 +41,7 @@ http://www.templatemo.com/tm-496-pipeline
         
     	 <div class="formulario">  
 
-            <form action="" method="post" id="validate">                  
+            <form action="inserircadastro.php" method="post" id="validate">                  
                     
                 <label>* Nome</label>
                 <input name="nome" type="text" class="g">

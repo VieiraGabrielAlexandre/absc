@@ -41,7 +41,7 @@ http://www.templatemo.com/tm-496-pipeline
         
     	 <div class="formulario">  
 
-            <form action="" method="post" id="validate">                  
+            <form action="inserircadstrojuridica.php" method="post" id="validate">                  
                     
                 <label>* Razão</label>
                 <input name="razao" type="text" class="g">
