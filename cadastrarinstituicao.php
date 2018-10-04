@@ -43,8 +43,8 @@ http://www.templatemo.com/tm-496-pipeline
 
             <form action="" method="post" id="validate">                  
                     
-                <label>* Nome</label>
-                <input name="nome" type="text" class="g">
+                <label>* Razão</label>
+                <input name="razao" type="text" class="g">
 
                 <label>* E-mail</label>
                 <input name="email" type="text" class="g">
@@ -52,23 +52,10 @@ http://www.templatemo.com/tm-496-pipeline
                 <label>Telefone</label>
                 <input name="telefone" type="text" class="p" id="telefone">
 
-                <label>Celular</label>
-                <input name="celular" type="text" class="p" id="celular">
-
-                <label>CPF</label>
-                <input name="cpf" type="text" class="p" id="cpf">
-
-                <label>Data de Nascimento</label>
-                <input name="datanascimento" type="text" class="p" id="data">
+                <label>CNPJ</label>
+                <input name="cnpj" type="text" class="p" id="cnpj">
 
                 <input  type="hidden" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
-
-                <label>Sexo</label>
-                <select name="sexo" class="m">
-                  <option>Selecione</option>
-                  <option>Masculino</option>
-                  <option>Feminino</option>
-                </select>
 
                 <label>CEP</label>
                 <input name="cep" type="text" class="p" id="cep">
