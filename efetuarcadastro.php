@@ -80,7 +80,7 @@ http://www.templatemo.com/tm-496-pipeline
                 <input name="numero" type="text" class="pp" >
              
                 <label>Complemento</label>
-                <input name="Complemento" type="text" class="m">
+                <input name="complemento" type="text" class="m">
                 
                 <label>Bairro</label>
                 <input name="bairro" type="text" class="p">
@@ -299,6 +299,8 @@ http://www.templatemo.com/tm-496-pipeline
                     <option value="Zimbábue">Zimbábue</option>
                 </select>
                 
+                <label>Senha</label>
+                <input name="senha" type="password" class="p" id="senha">
                 
                 <input type="submit" value="Enviar">
 

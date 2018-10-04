@@ -4,9 +4,21 @@
 	
 	$nome = $_POST['nome'];
 	$email = $_POST['email'];
+	$telefone = $_POST['telefone'];
+	$celular = $_POST['celular'];
 	$cpf = $_POST['cpf'];
+	$datanascimento = $_POST['datanascimento'];
 	$senha = $_POST['senha'];
 	$criacao = $_POST['dataatual'];
+	$sexo = $_POST['sexo'];
+	$cep = $_POST ['cep'];
+	$endereco = $_POST['endereco'];
+	$numero = $_POST['numero'];
+	$complemento = $_POST['complemento'];
+	$bairro = $_POST['bairro'];
+	$pais = $_POST['pais'];
+	$cidade = $_POST['cidade'];
+	$estado = $_POST['estado'];
 	$situacao = $_POST['situacao'];
 	$classcliente = $_POST['classcliente'];
 
@@ -14,8 +26,8 @@
     $link = $objDb->conecta_mysql();
 	
 	
-    $sql = "insert into usuarios(nome, cpf, email, senha,situacoe_id,niveis_acesso_id,created,modified) values
-        ('$nome','$cpf','$email','$senha','$situacao','$classcliente','$criacao','$criacao')";
+    $sql = "insert into usuarios(nome, cpf, email, senha,situacoe_id,niveis_acesso_id,created,modified,telefone,celular,datanascimento,sexo,cep,endereco,numero,complemento,bairro,pais,cidade,estado) values
+        ('$nome','$cpf','$email','$senha','$situacao','$classcliente','$criacao','$criacao','$telefone','$celular','$datanascimento','$sexo','$cep','$endereco','$numero','$complemento','$bairro','$pais','$cidade','$estado')";
 	
 	$resultado_usuario = mysqli_query($con2, $sql);
 	$resultado = mysqli_fetch_assoc($resultado_usuario);
