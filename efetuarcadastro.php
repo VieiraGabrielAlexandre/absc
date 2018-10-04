@@ -29,6 +29,14 @@ http://www.templatemo.com/tm-496-pipeline
           
    
 <body>   
+<div class="container-fluid">
+
+<section id="welcome" class="tm-content-box tm-banner margin-b-10">
+    <div class="tm-banner-inner">
+        <h1 class="tm-banner-title">Abrace Sua Causa s2</h1>                        
+    </div>                    
+</section>
+
 	<section>
         
     	 <div class="formulario">  
