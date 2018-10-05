@@ -60,6 +60,8 @@ http://www.templatemo.com/tm-496-pipeline
 
                 <label>Data de Nascimento</label>
                 <input name="datanascimento" type="text" class="p" id="data">
+                <input name="classcliente" type="hidden" value="3">
+                <input name="situacao" type="hidden" value="1">
 
                 <input  type="hidden" name="dataatual" value="<?php echo date('Y-m-d h:m:s');?>" />
 
