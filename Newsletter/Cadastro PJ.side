@@ -1,0 +1,272 @@
+{
+  "id": "27765062-f529-44db-a26c-2f4466d1bf09",
+  "version": "1.1",
+  "name": "Cadastro CJ",
+  "url": "https://abracesuacausa.azurewebsites.net",
+  "tests": [{
+    "id": "a2044438-9c68-48c9-a0c1-761337edfbf6",
+    "name": "Pessoa J",
+    "commands": [{
+      "id": "1858c70a-f6d2-42c8-9c4c-f63a9e65c311",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca48d670-f2bb-4fdc-87d0-d3f7e807d112",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79d20011-5f44-4ceb-8b4d-f2dd61cdf059",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cadastre-se",
+      "targets": [
+        ["linkText=Cadastre-se", "linkText"],
+        ["css=.tm-nav-item:nth-child(3) > .tm-nav-item-link", "css:finder"],
+        ["xpath=//a[contains(@href, '#Cadastrese')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcc279c2-9deb-44a6-818e-d7ac30efa7f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Clique aqui para se cadastrar",
+      "targets": [
+        ["linkText=Clique aqui para se cadastrar", "linkText"],
+        ["css=a.tm-button.tm-button-normal", "css"],
+        ["css=.tm-box-pad > .tm-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Clique aqui para se cadastrar')]", "xpath:link"],
+        ["xpath=//div[@id='Cadastrese']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'efetuarcadastro.php')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0ed3a4f-52c9-4d91-a4ec-0f3022db5262",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.formulario > input[type=\"submit\"]",
+      "targets": [
+        ["css=div.formulario > input[type=\"submit\"]", "css"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Pessoa Juridica']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26e5ae2d-a3bd-4064-a06c-9f9cc7629a9f",
+      "comment": "",
+      "command": "type",
+      "target": "name=razao",
+      "targets": [
+        ["name=razao", "name"],
+        ["css=input[name=\"razao\"]", "css"],
+        ["css=.g:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='razao']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Procuradoria"
+    }, {
+      "id": "7963c66b-023c-4d5e-b580-c617ef814e04",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input[name=\"email\"]", "css"],
+        ["css=.g:nth-child(9)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "procuradora@gmail.com"
+    }, {
+      "id": "be484624-c66d-46c2-a23e-b6cff75ac950",
+      "comment": "",
+      "command": "type",
+      "target": "id=telefone",
+      "targets": [
+        ["id=telefone", "id"],
+        ["name=telefone", "name"],
+        ["css=#telefone", "css"],
+        ["css=#telefone", "css:finder"],
+        ["xpath=//input[@id='telefone']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "1132467000"
+    }, {
+      "id": "6c40db96-b471-4aba-8537-66c24e09155a",
+      "comment": "",
+      "command": "type",
+      "target": "id=cnpj",
+      "targets": [
+        ["id=cnpj", "id"],
+        ["name=cnpj", "name"],
+        ["css=#cnpj", "css"],
+        ["css=#cnpj", "css:finder"],
+        ["xpath=//input[@id='cnpj']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "26989715003390"
+    }, {
+      "id": "a64a908b-5998-4ccb-90f0-59e74527960b",
+      "comment": "",
+      "command": "type",
+      "target": "id=cep",
+      "targets": [
+        ["id=cep", "id"],
+        ["name=cep", "name"],
+        ["css=#cep", "css"],
+        ["css=#cep", "css:finder"],
+        ["xpath=//input[@id='cep']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "04013002"
+    }, {
+      "id": "fe7f0ede-4eef-435e-8236-8be2e5057a1e",
+      "comment": "",
+      "command": "type",
+      "target": "name=endereco",
+      "targets": [
+        ["name=endereco", "name"],
+        ["css=input[name=\"endereco\"]", "css"],
+        ["css=.g:nth-child(18)", "css:finder"],
+        ["xpath=//input[@name='endereco']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": "Rua Cubatão"
+    }, {
+      "id": "b5a2bb31-aeb8-4ef5-860d-b8e606bfd93e",
+      "comment": "",
+      "command": "type",
+      "target": "name=numero",
+      "targets": [
+        ["name=numero", "name"],
+        ["css=input[name=\"numero\"]", "css"],
+        ["css=.pp", "css:finder"],
+        ["xpath=//input[@name='numero']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[8]", "xpath:idRelative"],
+        ["xpath=//input[8]", "xpath:position"]
+      ],
+      "value": "322"
+    }, {
+      "id": "9e41abca-d80d-47a9-8543-2dfb7e63c0e5",
+      "comment": "",
+      "command": "type",
+      "target": "name=complemento",
+      "targets": [
+        ["name=complemento", "name"],
+        ["css=input[name=\"complemento\"]", "css"],
+        ["css=.m", "css:finder"],
+        ["xpath=//input[@name='complemento']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "PRT02"
+    }, {
+      "id": "df522b57-6146-4958-bb8e-2414b7a96383",
+      "comment": "",
+      "command": "type",
+      "target": "name=bairro",
+      "targets": [
+        ["name=bairro", "name"],
+        ["css=input[name=\"bairro\"]", "css"],
+        ["css=.p:nth-child(24)", "css:finder"],
+        ["xpath=//input[@name='bairro']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[10]", "xpath:idRelative"],
+        ["xpath=//input[10]", "xpath:position"]
+      ],
+      "value": "Paraíso"
+    }, {
+      "id": "ca2a32f4-29f2-4057-9a6f-f3c58598c447",
+      "comment": "",
+      "command": "type",
+      "target": "name=cidade",
+      "targets": [
+        ["name=cidade", "name"],
+        ["css=input[name=\"cidade\"]", "css"],
+        ["css=.p:nth-child(28)", "css:finder"],
+        ["xpath=//input[@name='cidade']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[13]", "xpath:idRelative"],
+        ["xpath=//input[13]", "xpath:position"]
+      ],
+      "value": "São Paulo"
+    }, {
+      "id": "aea55e28-def0-4dc2-aaa9-fd169ad924db",
+      "comment": "",
+      "command": "select",
+      "target": "name=estado",
+      "targets": [],
+      "value": "label=São Paulo"
+    }, {
+      "id": "75914c07-6195-46d1-9937-d7c2524a93dc",
+      "comment": "",
+      "command": "click",
+      "target": "name=pais",
+      "targets": [
+        ["name=pais", "name"],
+        ["css=select[name=\"pais\"]", "css"],
+        ["css=.p:nth-child(32)", "css:finder"],
+        ["xpath=//select[@name='pais']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/select[2]", "xpath:idRelative"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "label=Brasil"
+    }, {
+      "id": "ea43b575-f5aa-4e78-b144-403d2587bfdf",
+      "comment": "",
+      "command": "type",
+      "target": "name=senha",
+      "targets": [
+        ["name=senha", "name"],
+        ["css=input[name=\"senha\"]", "css"],
+        ["css=.p:nth-child(34)", "css:finder"],
+        ["xpath=//input[@name='senha']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[14]", "xpath:idRelative"],
+        ["xpath=//input[14]", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "970fdd12-db35-4fed-91fd-d1c9076b1037",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[type=\"submit\"]",
+      "targets": [
+        ["css=input[type=\"submit\"]", "css"],
+        ["css=input:nth-child(35)", "css:finder"],
+        ["xpath=//input[@value='Enviar']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[15]", "xpath:idRelative"],
+        ["xpath=//input[15]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eda7cc6-37ff-40df-bea1-b897218ca88d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=center",
+      "targets": [],
+      "value": "Parabéns por fazer parte ..."
+    }]
+  }],
+  "suites": [{
+    "id": "c88eff98-dd00-4f4a-b837-3f289a6a4878",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a2044438-9c68-48c9-a0c1-761337edfbf6"]
+  }],
+  "urls": ["https://abracesuacausa.azurewebsites.net/"],
+  "plugins": []
+}

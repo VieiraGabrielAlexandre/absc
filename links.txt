@@ -1,0 +1,7 @@
+https://portal.azure.com/
+
+https://abracesuacausa.scm.azurewebsites.net/phpmyadmin
+
+Database=localdb;Data Source=127.0.0.1:53870;User Id=azure;Password=6#vWHD_$
+
+Database=localdb;Data Source=127.0.0.1;User Id=azure;Password=6#vWHD_$;Port=53870

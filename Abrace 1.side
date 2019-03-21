@@ -1,0 +1,495 @@
+{
+  "id": "528b4fe1-fe1b-4f3b-a963-5f6dc77f2700",
+  "version": "1.1",
+  "name": "Abrace 1",
+  "url": "https://abracesuacausa.azurewebsites.net",
+  "tests": [{
+    "id": "a97e4563-6d4a-4bf6-a189-8e84ce1ce951",
+    "name": "Marcelo",
+    "commands": [{
+      "id": "5a12d6e3-30ee-4ab0-afae-7f83ed422137",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b231147a-b7aa-4d2e-8a91-27704cba1e8a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f70afacb-3758-42d5-866e-8e37ac5a154a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cadastre-se",
+      "targets": [
+        ["linkText=Cadastre-se", "linkText"],
+        ["css=.tm-nav-item:nth-child(3) > .tm-nav-item-link", "css:finder"],
+        ["xpath=//a[contains(@href, '#Cadastrese')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5684461a-ea7f-4a67-b385-e79a3d898fb3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Clique aqui para se cadastrar",
+      "targets": [
+        ["linkText=Clique aqui para se cadastrar", "linkText"],
+        ["css=a.tm-button.tm-button-normal", "css"],
+        ["css=.tm-box-pad > .tm-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Clique aqui para se cadastrar')]", "xpath:link"],
+        ["xpath=//div[@id='Cadastrese']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'efetuarcadastro.php')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e4eb4ae-4ad8-440e-b5f0-8b6644942a77",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=input[name=\"nome\"]", "css"],
+        ["css=.g:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Marcelo Dos Santos Silva"
+    }, {
+      "id": "8316cab1-6c89-4084-ad64-629d375ad877",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input[name=\"email\"]", "css"],
+        ["css=.g:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "marcelo2@marcelo2"
+    }, {
+      "id": "aad9de44-1d5d-4d2a-8242-298942cc3bc0",
+      "comment": "",
+      "command": "type",
+      "target": "id=telefone",
+      "targets": [],
+      "value": "1158318808"
+    }, {
+      "id": "f3e0c604-e2eb-4848-8386-727ec57d37ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=celular",
+      "targets": [],
+      "value": "11975416429"
+    }, {
+      "id": "73497f07-1901-4ee2-bb5e-6d74bfba94a8",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [],
+      "value": "22904437860"
+    }, {
+      "id": "ae7e54f5-5e53-4d1d-b99d-92519f5a1e18",
+      "comment": "",
+      "command": "type",
+      "target": "id=data",
+      "targets": [],
+      "value": "30041996"
+    }, {
+      "id": "2c58e091-9966-4c48-ae01-c22817febb49",
+      "comment": "",
+      "command": "select",
+      "target": "name=sexo",
+      "targets": [],
+      "value": "label=Masculino"
+    }, {
+      "id": "780af9eb-0eed-4ca8-b2d0-baad2683eac4",
+      "comment": "",
+      "command": "type",
+      "target": "name=cep",
+      "targets": [
+        ["name=endereco", "name"],
+        ["css=input[name=\"endereco\"]", "css"],
+        ["css=.g:nth-child(25)", "css:finder"],
+        ["xpath=//input[@name='endereco']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[11]", "xpath:idRelative"],
+        ["xpath=//input[11]", "xpath:position"]
+      ],
+      "value": "04920-030"
+    }, {
+      "id": "63da17c3-e165-4e9e-a6d4-88a405116b2d",
+      "comment": "",
+      "command": "type",
+      "target": "name=endereco",
+      "targets": [
+        ["name=endereco", "name"],
+        ["css=input[name=\"endereco\"]", "css"],
+        ["css=.g:nth-child(25)", "css:finder"],
+        ["xpath=//input[@name='endereco']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[11]", "xpath:idRelative"],
+        ["xpath=//input[11]", "xpath:position"]
+      ],
+      "value": "Rua Dos Testes"
+    }, {
+      "id": "166cb3e1-e9b4-4e7e-8d4b-b0a15544ae2f",
+      "comment": "",
+      "command": "type",
+      "target": "name=numero",
+      "targets": [
+        ["name=numero", "name"],
+        ["css=input[name=\"numero\"]", "css"],
+        ["css=.pp", "css:finder"],
+        ["xpath=//input[@name='numero']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[12]", "xpath:idRelative"],
+        ["xpath=//input[12]", "xpath:position"]
+      ],
+      "value": "78"
+    }, {
+      "id": "57ebfed0-b94f-4493-886a-2332fc2d7fdb",
+      "comment": "",
+      "command": "type",
+      "target": "name=complemento",
+      "targets": [
+        ["name=complemento", "name"],
+        ["css=input[name=\"complemento\"]", "css"],
+        ["css=.m:nth-child(29)", "css:finder"],
+        ["xpath=//input[@name='complemento']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[13]", "xpath:idRelative"],
+        ["xpath=//input[13]", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "c4d272e0-0230-40c1-ac36-f7f184d07b7f",
+      "comment": "",
+      "command": "type",
+      "target": "name=bairro",
+      "targets": [
+        ["name=bairro", "name"],
+        ["css=input[name=\"bairro\"]", "css"],
+        ["css=.p:nth-child(31)", "css:finder"],
+        ["xpath=//input[@name='bairro']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[14]", "xpath:idRelative"],
+        ["xpath=//input[14]", "xpath:position"]
+      ],
+      "value": "jardim HE"
+    }, {
+      "id": "b1130d9e-2b22-4f05-8695-05d470f0fb38",
+      "comment": "",
+      "command": "type",
+      "target": "name=cidade",
+      "targets": [
+        ["name=cidade", "name"],
+        ["css=input[name=\"cidade\"]", "css"],
+        ["css=.p:nth-child(33)", "css:finder"],
+        ["xpath=//input[@name='cidade']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[15]", "xpath:idRelative"],
+        ["xpath=//input[15]", "xpath:position"]
+      ],
+      "value": "São Paulo"
+    }, {
+      "id": "2f5b55ca-b421-4ff7-ac09-3420542e3cd6",
+      "comment": "",
+      "command": "select",
+      "target": "name=estado",
+      "targets": [],
+      "value": "label=São Paulo"
+    }, {
+      "id": "8a3466cb-4053-4e98-8923-a4f79dab6f0b",
+      "comment": "",
+      "command": "type",
+      "target": "id=senha",
+      "targets": [
+        ["id=senha", "id"],
+        ["name=senha", "name"],
+        ["css=#senha", "css"],
+        ["css=#senha", "css:finder"],
+        ["xpath=//input[@id='senha']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[16]", "xpath:idRelative"],
+        ["xpath=//input[16]", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "1548f01f-e4bf-44bc-a16e-f13fda4589d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[type=\"submit\"]",
+      "targets": [
+        ["css=input[type=\"submit\"]", "css"],
+        ["css=input:nth-child(40)", "css:finder"],
+        ["xpath=//input[@value='Enviar']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[17]", "xpath:idRelative"],
+        ["xpath=//input[17]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "038ed969-2139-4f48-bcaa-9e7cf86368e9",
+      "comment": "",
+      "command": "verify text present",
+      "target": "css=h2.tm-section-title",
+      "targets": [
+        ["css=h2.tm-section-title", "css"],
+        ["css=.tm-section-title", "css:finder"],
+        ["xpath=//div[@id='Campanhas']/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": "Parabéns por fazer parte ..."
+    }]
+  }, {
+    "id": "f115a7c4-3b0c-49b2-bfef-26198718366c",
+    "name": "Ricardo ",
+    "commands": [{
+      "id": "e2b2a1c3-0b72-4bb0-91cb-3fea05f83b0d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e76f60df-35ae-466c-b748-b4aca3a15dac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bef50763-9e86-4831-afb6-2e3d513fc02d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cadastre-se",
+      "targets": [
+        ["linkText=Cadastre-se", "linkText"],
+        ["css=.tm-nav-item:nth-child(3) > .tm-nav-item-link", "css:finder"],
+        ["xpath=//a[contains(@href, '#Cadastrese')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63e25573-74e7-4b5c-a24d-016022bc0e22",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Clique aqui para se cadastrar",
+      "targets": [
+        ["linkText=Clique aqui para se cadastrar", "linkText"],
+        ["css=a.tm-button.tm-button-normal", "css"],
+        ["css=.tm-box-pad > .tm-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Clique aqui para se cadastrar')]", "xpath:link"],
+        ["xpath=//div[@id='Cadastrese']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'efetuarcadastro.php')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59789584-126a-405e-8767-7fea2393e669",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=input[name=\"nome\"]", "css"],
+        ["css=.g:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ricardo Ares Dos Santos"
+    }, {
+      "id": "e01ae88a-1f17-4bb2-8fd1-b03d19dbbab4",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input[name=\"email\"]", "css"],
+        ["css=.g:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "ricardo.ares@globo.com"
+    }, {
+      "id": "aca69d26-155a-41e1-bc0f-febf16e73f0e",
+      "comment": "",
+      "command": "type",
+      "target": "id=telefone",
+      "targets": [],
+      "value": "999999999"
+    }, {
+      "id": "fc27e2f4-90e4-4fff-9389-08639d007627",
+      "comment": "",
+      "command": "type",
+      "target": "id=celular",
+      "targets": [],
+      "value": "999999999"
+    }, {
+      "id": "b1f4be5d-9fbe-4b19-acb6-fa9dd3ce7396",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [],
+      "value": "999999999"
+    }, {
+      "id": "6030f72a-d234-4256-9b5d-6e73d48d3972",
+      "comment": "",
+      "command": "type",
+      "target": "id=data",
+      "targets": [],
+      "value": "05041992"
+    }, {
+      "id": "cfda991c-d5b6-4467-bcec-6a7040ed5e55",
+      "comment": "",
+      "command": "select",
+      "target": "name=sexo",
+      "targets": [],
+      "value": "label=Masculino"
+    }, {
+      "id": "cbba31e1-3600-4940-8711-ec9c51903b3b",
+      "comment": "",
+      "command": "type",
+      "target": "name=cep",
+      "targets": [
+        ["name=endereco", "name"],
+        ["css=input[name=\"endereco\"]", "css"],
+        ["css=.g:nth-child(25)", "css:finder"],
+        ["xpath=//input[@name='endereco']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[11]", "xpath:idRelative"],
+        ["xpath=//input[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85d68880-17f2-4973-bfed-b3bcc6194f19",
+      "comment": "",
+      "command": "type",
+      "target": "name=endereco",
+      "targets": [
+        ["name=endereco", "name"],
+        ["css=input[name=\"endereco\"]", "css"],
+        ["css=.g:nth-child(25)", "css:finder"],
+        ["xpath=//input[@name='endereco']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[11]", "xpath:idRelative"],
+        ["xpath=//input[11]", "xpath:position"]
+      ],
+      "value": "Rua Dos Testes"
+    }, {
+      "id": "8a8a9303-3da3-43e0-8e12-b084bd71d7fb",
+      "comment": "",
+      "command": "type",
+      "target": "name=numero",
+      "targets": [
+        ["name=numero", "name"],
+        ["css=input[name=\"numero\"]", "css"],
+        ["css=.pp", "css:finder"],
+        ["xpath=//input[@name='numero']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[12]", "xpath:idRelative"],
+        ["xpath=//input[12]", "xpath:position"]
+      ],
+      "value": "78"
+    }, {
+      "id": "3da809ba-ff6c-4c30-98cb-3e6fb568d29f",
+      "comment": "",
+      "command": "type",
+      "target": "name=complemento",
+      "targets": [
+        ["name=complemento", "name"],
+        ["css=input[name=\"complemento\"]", "css"],
+        ["css=.m:nth-child(29)", "css:finder"],
+        ["xpath=//input[@name='complemento']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[13]", "xpath:idRelative"],
+        ["xpath=//input[13]", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "009dc0c0-7249-43e0-bfcb-f5d99fe1f789",
+      "comment": "",
+      "command": "type",
+      "target": "name=bairro",
+      "targets": [
+        ["name=bairro", "name"],
+        ["css=input[name=\"bairro\"]", "css"],
+        ["css=.p:nth-child(31)", "css:finder"],
+        ["xpath=//input[@name='bairro']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[14]", "xpath:idRelative"],
+        ["xpath=//input[14]", "xpath:position"]
+      ],
+      "value": "jardim HE"
+    }, {
+      "id": "1c273126-9cd5-4e8e-a6a4-c48309320644",
+      "comment": "",
+      "command": "type",
+      "target": "name=cidade",
+      "targets": [
+        ["name=cidade", "name"],
+        ["css=input[name=\"cidade\"]", "css"],
+        ["css=.p:nth-child(33)", "css:finder"],
+        ["xpath=//input[@name='cidade']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[15]", "xpath:idRelative"],
+        ["xpath=//input[15]", "xpath:position"]
+      ],
+      "value": "São Paulo"
+    }, {
+      "id": "1fe270fd-5963-4654-8eb9-3fbb65b0f2b1",
+      "comment": "",
+      "command": "select",
+      "target": "name=estado",
+      "targets": [],
+      "value": "label=São Paulo"
+    }, {
+      "id": "96f0df37-6540-461b-8f19-e7aa7db9bbc8",
+      "comment": "",
+      "command": "type",
+      "target": "id=senha",
+      "targets": [
+        ["id=senha", "id"],
+        ["name=senha", "name"],
+        ["css=#senha", "css"],
+        ["css=#senha", "css:finder"],
+        ["xpath=//input[@id='senha']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[16]", "xpath:idRelative"],
+        ["xpath=//input[16]", "xpath:position"]
+      ],
+      "value": "123457"
+    }, {
+      "id": "0be24f40-5d36-474c-9e75-780f24a81687",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[type=\"submit\"]",
+      "targets": [
+        ["css=input[type=\"submit\"]", "css"],
+        ["css=input:nth-child(40)", "css:finder"],
+        ["xpath=//input[@value='Enviar']", "xpath:attributes"],
+        ["xpath=//form[@id='validate']/input[17]", "xpath:idRelative"],
+        ["xpath=//input[17]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c48021d2-8b83-4bb3-9748-35fd7241cc91",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h2.tm-section-title",
+      "targets": [
+        ["css=h2.tm-section-title", "css"],
+        ["css=.tm-section-title", "css:finder"],
+        ["xpath=//div[@id='Campanhas']/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": "Parabéns por fazer parte ..."
+    }]
+  }],
+  "suites": [{
+    "id": "d53607cc-3101-4fe0-99a2-4a48ca505572",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://abracesuacausa.azurewebsites.net/"],
+  "plugins": []
+}

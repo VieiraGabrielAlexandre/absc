@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@font-face {
+font-family: 'FonteLogo';
+src: url("../font-awesome-4.6.3/fonts/Sofia-Regular.otf");
+}
+
+
+
+section#welcome2 {
+position: relative;	
+width: 94%;
+height: 150px;
+margin: auto;
+background-image: url("../img/capa.jpg");
+border: 2px solid;
+color: #ffffff;
+box-shadow: 10px 10px 10px #424242;
+
+}	
+
+section#welcome2 h1{
+text-align: center;
+color: #ffffff;
+margin-top: auto;
+font-size: 440%;
+font-family: 'FonteLogo';
+opacity: 1;
+	
+}

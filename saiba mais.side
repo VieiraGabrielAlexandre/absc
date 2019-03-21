@@ -1,0 +1,109 @@
+{
+  "id": "792e38c1-baaf-43be-b2d0-3f0e6f46d95b",
+  "version": "1.1",
+  "name": "saiba mais",
+  "url": "http://abracesuacausa.azurewebsites.net",
+  "tests": [{
+    "id": "00be2f87-1141-4619-a836-7bebbf6ed8b2",
+    "name": "1",
+    "commands": [{
+      "id": "04a7051f-85f9-44bb-9d38-355057875368",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8bf0745b-e4ab-4ea7-9d02-2fdfedce1464",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ece9f066-705a-4f97-ac4e-4e74d2814e90",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Saiba Mais",
+      "targets": [
+        ["linkText=Saiba Mais", "linkText"],
+        ["css=a.tm-welcome-link.tm-button", "css"],
+        ["css=.tm-welcome-box:nth-child(1) > .tm-welcome-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Saiba Mais')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'nossaempresa.php')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4fbf233-86a7-4ce1-adf8-a191259cc19a",
+      "comment": "",
+      "command": "click",
+      "target": "css=center",
+      "targets": [
+        ["css=center", "css"],
+        ["css=h1:nth-child(1) > center", "css:finder"],
+        ["xpath=//div[@id='nossaempressa']/h1/center", "xpath:idRelative"],
+        ["xpath=//center", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a087ae7f-e80b-4b3c-a242-c030d37541eb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=center",
+      "targets": [
+        ["css=center", "css"],
+        ["css=h1:nth-child(1) > center", "css:finder"],
+        ["xpath=//div[@id='nossaempressa']/h1/center", "xpath:idRelative"],
+        ["xpath=//center", "xpath:position"]
+      ],
+      "value": "Missão "
+    }, {
+      "id": "5d4864c2-c12a-45b5-bef6-ddc6a867b28e",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1:nth-child(8) > center",
+      "targets": [
+        ["css=h1:nth-child(8) > center", "css:finder"],
+        ["xpath=//div[@id='nossaempressa']/h1[2]/center", "xpath:idRelative"],
+        ["xpath=//h1[2]/center", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "835d731b-efe2-4c9e-93e4-6d5eadee18de",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=center",
+      "targets": [],
+      "value": "Visão"
+    }, {
+      "id": "ddffdc0d-c00d-4e50-ad41-b26a87a78349",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1:nth-child(15) > center",
+      "targets": [
+        ["css=h1:nth-child(15) > center", "css:finder"],
+        ["xpath=//div[@id='nossaempressa']/h1[3]/center", "xpath:idRelative"],
+        ["xpath=//h1[3]/center", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76e1c002-f593-4efc-ae68-4ecc74a83a4c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=center",
+      "targets": [],
+      "value": "Valores"
+    }]
+  }],
+  "suites": [{
+    "id": "6b060e7c-81b7-477c-8a61-cbbe7cfb8fd6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["00be2f87-1141-4619-a836-7bebbf6ed8b2"]
+  }],
+  "urls": ["http://abracesuacausa.azurewebsites.net/"],
+  "plugins": []
+}

@@ -1,0 +1,184 @@
+@charset "UTF-8";
+@font-face {
+font-family: 'FonteLogo';
+src: url("../font-awesome-4.6.3/fonts/Sofia-Regular.otf");
+}
+
+@font-face{
+font-family: 'FonteLogo2';
+src: url("../font-awesome-4.6.3/fonts/BEBAS___.ttf");
+}
+
+
+@font-face{
+font-family: 'Fontemenu';
+src: url("../font-awesome-4.6.3/fonts/Raleway-Italic.ttf");
+}
+
+
+
+
+body{
+height: 100%;
+width: 100%;	
+	
+}
+
+
+
+section#welcome {
+position: relative;	
+width: 94%;
+height: 150px;
+margin: auto;
+background-image: url("../img/capa.jpg");
+border: 2px solid;
+color: #ffffff;
+box-shadow: 10px 10px 10px #424242;
+
+}	
+
+section#welcome h1{
+text-align: center;
+color: #ffffff;
+margin-top: auto;
+font-size: 440%;
+font-family: 'FonteLogo';
+
+opacity: 1;
+	
+}
+
+
+
+
+
+#p1 {
+position: relative;
+text-align: center;
+color: #ffffff;	
+width: 45px;
+left: 3%;
+font-family: 'Fontemenu';
+}	
+
+#p1 a{
+text-decoration: none;
+list-style: none;
+color: inherit;
+border-radius: 4px 4px 4px 4px;
+}	
+
+
+
+div#login {
+position: relative;	
+font-family: 'Fontemenu';
+color: #0000000;
+width: 800px;
+margin: auto;
+margin-top:  200px;
+text-align: center;
+font-weight: bold;
+}	
+
+div#login h2{
+position: relative;
+text-align: center;
+font-size: 40px;
+right: 2.5%;
+margin-bottom: 30px;
+font-weight: bold;
+}
+
+	
+
+
+form#login input {
+position: relative;
+border: 2px solid;
+border-bottom: 2px solid;
+border-bottom-color: #000000;
+color: #696969;
+background-color: #D3D3D3;
+width: 30%;
+margin: 1%;
+}	
+
+
+
+div#login button {
+position: relative;
+background-color: #000000;
+border: 1px solid;
+border-radius: 4px 4px 4px 4px;
+font-family: 'FonteLogo2';
+color: #ffffff;
+font-size: 18px;	
+}	
+
+	
+
+
+	
+form#legenda2 {
+position: relative;
+text-align: center;
+width: 50%;
+margin: auto;
+
+}	
+
+
+
+form#legenda2 a{
+position: relative;	
+text-decoration: none;
+font-size: 75%;
+border-radius: 4px 4px 4px 4px;
+color: #ffffff;
+font-size: 85%;
+}
+
+
+
+a#l1 {
+
+right: 165%;
+
+
+}
+
+a#l2 {
+left: 80%;
+}
+
+
+
+
+
+
+
+footer {
+position: relative;
+clear: both;
+border-top: 2px solid;	
+text-align: center;
+font-weight: bold;
+clear: both;
+margin-top: 13.7%;
+font-family: 'Fontemenu';
+height: 0%;
+
+}	
+
+
+
+footer p{
+color: #000000;
+
+}
+
+
+
+

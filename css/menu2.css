@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+	
+div#menu2 ul{
+	margin-top: -1%;
+background-color: #cc0000;
+list-style: none;
+padding: 10px 10px;
+	
+}
+div#menu2 li {
+	display: inline;
+	
+}
+
+div#menu2 a {
+padding: 2px 10px;
+text-decoration: none;
+background-color: #cc0000;
+padding: 10px 10px;
+color: #ffffff;
+}
+
+div#menu2 a:hover{ 
+	color: blue;
+}

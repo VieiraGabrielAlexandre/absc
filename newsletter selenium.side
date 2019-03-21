@@ -1,0 +1,81 @@
+{
+  "id": "9aa50e30-ed50-4163-9f85-865c35373d52",
+  "version": "1.1",
+  "name": "teste newsletter",
+  "url": "http://abracesuacausa.azurewebsites.net",
+  "tests": [{
+    "id": "555b4e9c-8515-43fa-bcef-6d432670ea6e",
+    "name": "teste newsletter",
+    "commands": [{
+      "id": "264c4599-a0ee-49b4-bd33-705b74e90ba1",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "999df33d-f556-4145-b551-35cdbb79c07a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd055dcd-dcec-4af6-b3e1-d3fcac22a4b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Newsletter",
+      "targets": [
+        ["linkText=Newsletter", "linkText"],
+        ["css=.tm-welcome-box:nth-child(2) > .tm-welcome-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Newsletter')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Newsletter/newsletter.html')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7008b96-660b-4526-9342-036d9b409ce9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Acreana supera depressão após criar ONG para ajudar famílias em situação de risco em Rio Branco",
+      "targets": [
+        ["linkText=Acreana supera depressão após criar ONG para ajudar famílias em situação de risco em Rio Branco", "linkText"],
+        ["css=.col-lg-4:nth-child(2) .card-body a", "css:finder"],
+        ["xpath=//a[contains(text(),'Acreana supera depressão após criar ONG para ajudar famílias em situação de risco em Rio Branco')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'noticia2.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/h4/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb678422-a2ee-48a7-92c6-e2ffbedaedce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=“vaquinha” online",
+      "targets": [
+        ["linkText=“vaquinha” online", "linkText"],
+        ["css=p > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'“vaquinha” online')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.vakinha.com.br/vaquinha/associacao-karen-albuquerquer-gondim-karen-albuquerquer-gondim?utm_campaign=whatsapp&utm_content=329793&utm_medium=website&utm_source=social-shares')]", "xpath:href"],
+        ["xpath=//p[17]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd9b577c-9d8b-42aa-a3de-fc442734c01d",
+      "comment": "",
+      "command": "close",
+      "target": "win_ser_local",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ecbf67d4-4467-465f-b359-71f3c523e6a0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["555b4e9c-8515-43fa-bcef-6d432670ea6e"]
+  }],
+  "urls": ["http://abracesuacausa.azurewebsites.net/"],
+  "plugins": []
+}

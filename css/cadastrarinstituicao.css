@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@font-face {
+font-family: 'FonteLogo';
+src: url("../font-awesome-4.6.3/fonts/Sofia-Regular.otf");
+}
+
+@font-face{
+font-family: 'FonteLogo2';
+src: url("../font-awesome-4.6.3/fonts/BEBAS___.ttf");
+}
+
+
+@font-face{
+font-family: 'Fontemenu';
+src: url("../font-awesome-4.6.3/fonts/Raleway-Italic.ttf");
+}
+
+
+
+
+body{
+position: relative;
+width: 100%;	
+}
+
+
+
+section#welcome {
+position: relative;	
+width: 94%;
+height: 150px;
+margin: auto;
+background-image: url("../img/capa.jpg");
+border: 2px solid;
+color: #ffffff;
+box-shadow: 10px 10px 10px #424242;
+margin-bottom: 3%;
+}	
+
+section#welcome h1{
+text-align: center;
+color: #ffffff;
+font-size: 440%;
+font-family: 'FonteLogo';
+opacity: 1;
+margin-top: auto;
+	
+}
+
+
+form#legenda{
+position: relative;
+margin: auto;
+height: 50%;
+width: 50%;
+font-family: 'Fontemenu';
+font-weight: bold;
+text-align: center;
+
+}
+
+
+
+form#legenda h2{
+text-align: center;
+font-weight: bold;
+}
+
+form#legenda label{
+position: relative;
+;
+}
+
+
+
+form#legenda input{
+position: relative;
+background-color: #D3D3D3;
+border: 2px solid;
+margin: 3%;
+margin-top: 0px;
+width: 40%;
+}
+
+
+}
+
+
+form#legenda label{
+position: relative;
+
+}
+
+form#legenda .inpute {
+position: relative;
+right: 25%;
+}
+
+
+
+form#legenda .inputd {
+position: relative;
+left: 25%;
+}
+
+
+
+
+
+
+
+
+form#legenda2{
+position: relative;
+width: 20%;
+text-align: center;
+margin: auto;
+margin-top: 4%;
+left: 1%;
+font-family: 'Fontemenu';
+}
+
+form#legenda button{
+position: relative;
+border: 1px solid;
+background-color: #000000;
+border: 1px solid;
+border-radius: 4px 6px 4px 6px;
+color: #ffffff;
+font-size: 17px;
+font-family: 'FonteLogo2';
+}
+
+form#legenda a{
+position: relative;	
+text-decoration: none;
+border-radius: 4px 4px 4px 4px;
+color: #ffffff;
+font-size: 80%;
+}
+
+
+
+footer{
+position: relative;
+clear: both;
+border-top: 2px solid;	
+text-align: center;
+font-weight: bold;
+width: 100%;
+height: 0%;
+font-family: 'Fontemenu';
+margin-top: 20%;
+}
+
+footer p{
+color: #000000;
+
+}
+
+
+
+
+
